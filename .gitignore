@@ -1,2 +1,5 @@
 - Webstorm dir
 .idea/
+
+- DS Store
+.DS_Store
