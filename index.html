@@ -30,7 +30,7 @@
 </header>
 
 <!--Catalogue Section-->
-<section class="section-features js--section-features" id="features">
+<section class="section-features js--section-features" id="catalogue">
     <div class="row">
         <h2>Our Catalogue</h2>
         <p class="long-copy">
@@ -169,8 +169,7 @@
 </section>
 
 <!--Contact Us Section-->
-
-<div class="map-box">
+<div id="contacts" class="map-box">
 
     <div class="map"></div>
 
@@ -185,13 +184,13 @@
                 <div class="row">
                     <div class="col span-1-of-3"><label>Name</label></div>
                     <div class="col span-2-of-3">
-                        <input type="text" name="name" id="name" placeholder="Your name" required/>
+                        <label for="name"></label><input type="text" name="name" id="name" placeholder="Your name" required />
                     </div>
                 </div>
                 <div class="row">
                     <div class="col span-1-of-3"><label>Email</label></div>
                     <div class="col span-2-of-3">
-                        <input id="email" name="email" placeholder="Your email" required type="email"/>
+                        <label for="email"></label><input type="email" id="email" name="email" placeholder="Your email" required />
                     </div>
                 </div>
                 <div class="row">
@@ -199,13 +198,15 @@
                         <label>Drop us a line</label>
                     </div>
                     <div class="col span-2-of-3">
-                        <textarea name="message" placeholder="Your message"></textarea>
+                        <label>
+                            <textarea name="message" placeholder="Your message"></textarea>
+                        </label>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col span-1-of-3"><label>&nbsp;</label></div>
                     <div class="col span-2-of-3">
-                        <input type="submit" value="Send it!">
+                        <input type="submit" value="Send it!" />
                     </div>
                 </div>
             </form>
@@ -214,6 +215,23 @@
 </div>
 
 <!--Footer Section-->
+<footer>
+    <div class="row">
+        <div class="col span-1-of-2">
+            <ul class="social-links">
+                <li>
+                    <a href=""><i class="ion-social-facebook"></i></a>
+                </li>
+                <li>
+                    <a href=""><i class="ion-social-linkedin"></i></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="row">
+        <p>&copy;GMO 2021. All rights reserved.</p>
+    </div>
+</footer>
 
 </body>
 </html>
