@@ -72,10 +72,17 @@ h2 {
 h2:after {
     display: block;
     height: 2px;
-    background-color: #e84393;
+    background-color: #82589F;
     content: " ";
     width: 100px;
     margin: 30px auto 0;
+}
+
+/*PARAGRAPHS*/
+.long-copy {
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%;
 }
 
 /*BUTTONS*/
@@ -140,5 +147,5 @@ h2:after {
 
 .main-nav li a:hover,
 .main-nav li a:active {
-    border-bottom: 2px solid #e84393;
+    border-bottom: 2px solid #82589F;
 }
