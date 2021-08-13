@@ -14,10 +14,19 @@ html {
     text-rendering: optimizeLegibility;
 }
 
+/******************************************/
+/*REUSABLE COMPONENTS*/
+/******************************************/
+
 /*Row*/
 .row {
     max-width: 1140px;
     margin: 0 auto;
+}
+
+/*SECTIONS*/
+section {
+    padding: 80px 0;
 }
 
 /*****************************************/
@@ -39,15 +48,34 @@ header {
 }
 
 /*HEADINGS*/
+h1, h2 {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
 h1 {
     margin-top: 0;
     margin-bottom: 20px;
     color: #ffffff;
     font-size: 240%;
-    font-weight: 300;
-    text-transform: uppercase;
-    letter-spacing: 1px;
     word-spacing: 3px;
+}
+
+h2 {
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: #e84393;
+    content: " ";
+    width: 100px;
+    margin: 30px auto 0;
 }
 
 /*BUTTONS*/
@@ -112,5 +140,5 @@ h1 {
 
 .main-nav li a:hover,
 .main-nav li a:active {
-    border-bottom: 2px solid #704c89;
+    border-bottom: 2px solid #e84393;
 }
