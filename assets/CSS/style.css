@@ -47,6 +47,11 @@ header {
     transform: translate(-50%, -50%);
 }
 
+.hero-text-box > h1 > span {
+    font-size: 0.5em;
+    font-weight: 400;
+}
+
 /*HEADINGS*/
 h1, h2 {
     font-weight: 300;
@@ -58,7 +63,7 @@ h1 {
     margin-top: 0;
     margin-bottom: 20px;
     color: #ffffff;
-    font-size: 240%;
+    font-size: 270%;
     word-spacing: 3px;
 }
 
@@ -150,6 +155,13 @@ h2:after {
     border-bottom: 2px solid #82589F;
 }
 
+/******************************************************/
+/*FEATURES*/
+/******************************************************/
+.section-features > .long-copy {
+    margin-bottom: 30px;
+}
+
 /*****************************************************/
 /*CATALOGUE*/
 /*****************************************************/
@@ -220,3 +232,8 @@ h2:after {
     text-transform: uppercase;
     text-align: center;
 }
+
+
+/*------------------------------------------------------------------------*/
+/*----------ABOUT SECTION-------------------------------------------------*/
+/*------------------------------------------------------------------------*/
