@@ -8,8 +8,10 @@
     <title>Hanse Impex Co. Limited</title>
     <!--CSS Section-->
     <!--Normalize CSS-->
-    <link href="/vendors/CSS/normalize.css" rel="stylesheet" type="text/css">
-    <link href="/assets/CSS/style.css" rel="stylesheet" type="text/css">
+    <link href="../vendors/CSS/normalize.css" rel="stylesheet" type="text/css">
+    <!--Responsive Grid CSS-->
+    <link href="../vendors/CSS/grid.css" rel="stylesheet" type="text/css">
+    <link href="./CSS/style.css" rel="stylesheet" type="text/css">
     <!--Google Fonts-->
     <link href="https://fonts.googleapis.com" rel="preconnect">
     <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
@@ -22,7 +24,7 @@
     <!--Navigation Section-->
     <nav>
         <div class="row">
-            <img alt="Hanse logo" class="hanse-logo" src="../resources/IMG/logo/logo.webp"/>
+            <img alt="Hanse logo" class="logo" src="../resources/IMG/logo/logo.webp"/>
             <ul class="main-nav js--main-nav">
                 <li><a href="../index.html">Home</a></li>
                 <li><a href="#history">History</a></li>
@@ -50,9 +52,12 @@
 <!--Identity Section-->
 <section class="section-features" id="identity">
     <div class="row">
+        <h2>Who We Are</h2>
+    </div>
+    <div class="row">
         <!--Vision-->
-        <div class="col span-1-of-2">
-            <h2>Our Vision</h2>
+        <div class="col span-1-of-2 box">
+            <h3>Our Vision</h3>
             <p class="long-copy">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae commodi eveniet necessitatibus
                 obcaecati
@@ -61,8 +66,8 @@
             </p>
         </div>
         <!--Mission-->
-        <div class="col span-2-of-2">
-            <h2>Our Mission</h2>
+        <div class="col span-1-of-2 box">
+            <h3>Our Mission</h3>
             <p class="long-copy">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus accusantium alias, assumenda
                 dolores
@@ -74,42 +79,30 @@
 </section>
 
 <!--Directors Section-->
-<section class="section-cities" id="directors">
+<section class="section-directors" id="directors">
     <div class="row">
         <h2>Our Directors</h2>
     </div>
     <div class="row js--wp-2">
-        <div class="col span-1-of-4 box">
+        <div class="col span-1-of-3 box">
             <img alt="CEO" src="../resources/IMG/catalogue/1.jpg"/>
-            <h3>C.E.O</h3>
-            <div class="city-feature">
-                <i class="ion-ios-person icon-small"></i> Preety Patel
-            </div>
-            <div class="city-feature">
-                <i class="ion-social-twitter icon-small"></i>
-                <a href="#">@preety_patel</a>
+            <h3>Preety Shah</h3>
+            <div class="director-feature">
+                <i class="ion-ios-person icon-small"></i> C.E.O
             </div>
         </div>
-        <div class="col span-1-of-4 box">
+        <div class="col span-1-of-3 box">
             <img alt="San Francisco" src="../resources/IMG/catalogue/2.jpg"/>
-            <h3>C.F.O</h3>
-            <div class="city-feature">
-                <i class="ion-ios-person icon-small"></i> Shreeji Patel
-            </div>
-            <div class="city-feature">
-                <i class="ion-social-twitter icon-small"></i>
-                <a href="#">@shreeji_patel</a>
+            <h3>Shreeji Patel</h3>
+            <div class="director-feature">
+                <i class="ion-ios-person icon-small"></i> C.F.O
             </div>
         </div>
-        <div class="col span-1-of-4 box">
+        <div class="col span-1-of-3 box">
             <img alt="Berlin" src="../resources/IMG/catalogue/3.jpg"/>
-            <h3>C.O.O</h3>
+            <h3>Naheer Patel</h3>
             <div class="city-feature">
-                <i class="ion-ios-person icon-small"></i> Naheer Patel
-            </div>
-            <div class="city-feature">
-                <i class="ion-social-twitter icon-small"></i>
-                <a href="#">@naheer_patel</a>
+                <i class="ion-ios-person icon-small"></i> C.O.O
             </div>
         </div>
     </div>
