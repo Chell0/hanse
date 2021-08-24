@@ -29,6 +29,10 @@ section {
     padding: 80px 0;
 }
 
+.box {
+    padding: 1%;
+}
+
 /*****************************************/
 /*HEADER*/
 /****************************************/
@@ -38,6 +42,7 @@ header {
     background-size: cover;
     background-position: center;
     height: 100vh;
+    background-attachment: fixed;
 }
 
 .hero-text-box {
@@ -195,56 +200,49 @@ h2:after {
     opacity: 0.7;
     width: 100%;
     height: auto;
-    transform: scale(1.15);
+    /* transform: scale(1.15); */
     transition: transform 0.3s, opacity 0.5s;
 }
 
-.catalogue-photo img:hover {
+/* .catalogue-photo img:hover {
     opacity: 1;
     transform: scale(1.03);
-}
+} */
 
-/*------------------------------------------------------------------------*/
-/*FORM SECTION*/
-/*------------------------------------------------------------------------*/
-
-.contact-form {
-    width: 60%;
-    margin: 0 auto;
-}
-
-input[type="text"],
-input[type="email"],
-select,
-textarea {
+/* ------------------------------- */
+/* --------CONTACT SECTION-------- */
+/* ------------------------------- */
+.box > .contact-feature {
     width: 100%;
-    padding: 7px;
-    border-radius: 3px;
-    border: 1px solid #82589f;
-}
-
-textarea {
-    height: 100px;
-}
-
-input[type="checkbox"] {
-    margin: 10px 5px 10px 0;
-}
-
-*:focus {
-    outline: none;
+    height: auto;
 }
 
 /*------------------------------------------------------------------------*/
 /*----------ABOUT SECTION-------------------------------------------------*/
 /*------------------------------------------------------------------------*/
 
+/* --------------------------------- */
+/* --------IDENTITY SECTIONS-------- */
+/* --------------------------------- */
+.identity-section {
+    background-color: #f4f4f4;
+}
+
+/* --------------------------------- */
+/* --------DIRECTORS SECTION-------- */
+/* --------------------------------- */
+.box img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
 /*------------------------------------------------------------------------*/
 /*---------FOOTER SECTION-------------------------------------------------*/
 /*------------------------------------------------------------------------*/
 footer {
     background-color: #333;
-    padding: 50px;
+    padding: 20px;
     font-size: 80%;
 }
 
