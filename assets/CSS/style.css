@@ -5,7 +5,8 @@
     box-sizing: border-box;
 }
 
-html {
+html,
+body {
     background-color: #ffffff;
     color: #555555;
     font-family: "Lato", "Arial", sans-serif;
@@ -251,6 +252,10 @@ h2:after {
     float: left;
     font-size: 150%;
     margin-right: 25px;
+}
+
+.contact-feature > p > span {
+    font-weight: 400;
 }
 
 /*------------------------------------------------------------------------*/
