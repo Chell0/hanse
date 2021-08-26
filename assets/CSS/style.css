@@ -64,6 +64,8 @@ header {
     width: 1140px;
     top: 50%;
     left: 50%;
+    -webkit-transform: translate(-50%, -50%); /* Android, Chrome, iOS, Safari */
+    -moz-transform: translate(-50%, -50%); /* Firefox */
     transform: translate(-50%, -50%);
 }
 
@@ -225,14 +227,17 @@ h2:after {
     opacity: 0.7;
     width: 100%;
     height: auto;
+    -webkit-transform: scale(1.15); /* Android, Chrome, iOS, Safari */
+    -ms-transform: scale(1.15); /* Microsoft, IE */
     transform: scale(1.15);
-    -webkit-transition: transform 0.3s, opacity 0.5s;
+    -webkit-transition: transform 0.3s, opacity 0.5s; /* Android, Chrome, iOS, Safari */
     transition: transform 0.3s, opacity 0.5s;
 }
 
 .catalogue-photo img:hover {
     opacity: 1;
-    -webkit-transform: scale(1.03);
+    -webkit-transform: scale(1.03); /* Android, Chrome, iOS, Safari */
+    -ms-transform: scale(1.03); /* Microsoft */
     transform: scale(1.03);
 }
 
@@ -329,7 +334,7 @@ footer {
     text-decoration: none;
     border: 0;
     color: #888;
-    -webki-transition: color 0.2s;
+    -webki-transition: color 0.2s; /* Android, Chrome, iOS, Safari */
     transition: color 0.2s;
 }
 
@@ -346,7 +351,7 @@ footer {
 
 .social-facebook,
 .social-linkedin {
-    -webkit-transition: color 0.2s;
+    -webkit-transition: color 0.2s; /* Android, Chrome, iOS, Safari */
     transition: color 0.2s;
 }
 
