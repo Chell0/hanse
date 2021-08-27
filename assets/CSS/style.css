@@ -195,6 +195,38 @@ h2:after {
     color: #82589f;
 }
 
+/* ------STICKY NAVIGATION------- */
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.98);
+    box-shadow: 0 2px 2px #efefef;
+}
+
+.main-nav {
+    margin-top: 18px;
+}
+
+.sticky > .row > .sticky-logo {
+    display: block;
+    height: 50px;
+    margin: 5px 0;
+}
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+    padding: 16px 0;
+    color: #82589f;
+}
+
+.sticky .main-nav li a:hover,
+.sticky .main-nav li a:active {
+    font-weight: 400;
+    border-bottom: 2px solid #e84393;
+}
+
 /******************************************************/
 /*FEATURES*/
 /******************************************************/
