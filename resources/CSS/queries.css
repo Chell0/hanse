@@ -58,9 +58,32 @@
         margin: 0 0 4% 0;
     }
 
-    .main-nav {
+    /* .main-nav {
         display: none;
+    } */
+
+    /* ------------------------------- */
+    /* -----MOBILE NAVIGATION--------- */
+    .mobile-nav-icon {
+        display: inline-block;
     }
+
+    .main-nav {
+        float: left;
+    }
+
+    .main-nav li {
+        display: block;
+    }
+
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        padding:  10px 0;
+    }
+
+    /* -------------------------------- */
 
     h1 {
         font-size: 180%;
