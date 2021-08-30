@@ -9,4 +9,9 @@ $(document).ready(function () {
     }, {
         offset: "60px;"
     });
+
+    /* Scroll on buttons */
+    $('.js--scroll-to-catalogue').click(function () {
+        $('html, body').animate({ scrollTop: $('.js--section-catalogue').offset().top }, 1000);
+    });
 });
