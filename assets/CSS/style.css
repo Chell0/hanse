@@ -195,6 +195,18 @@ h2:after {
     color: #82589f;
 }
 
+/* ------MOBILE NAVIGATION------- */
+.mobile-nav-icon {
+    float: right;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.mobile-nav-icon ion-icon {
+    font-size: 200%;
+    color: #fff;
+}
+
 /* ------STICKY NAVIGATION------- */
 .sticky {
     position: fixed;
