@@ -200,9 +200,10 @@ h2:after {
     float: right;
     margin-top: 30px;
     cursor: pointer;
+    display: none;
 }
 
-.mobile-nav-icon ion-icon {
+.mobile-nav-icon > i{
     font-size: 200%;
     color: #fff;
 }
@@ -237,7 +238,6 @@ h2:after {
 .sticky .main-nav li a:hover,
 .sticky .main-nav li a:active {
     font-weight: 400;
-    border-bottom: 2px solid #e84393;
 }
 
 /******************************************************/
@@ -391,20 +391,20 @@ footer {
 
 .social-links li a:link,
 .social-links li a:visited {
-    font-size: 160%;
+    font-size: 180%;
 }
 
-.social-facebook,
-.social-linkedin {
+.ion-logo-facebook,
+.ion-logo-linkedin {
     -webkit-transition: color 0.2s; /* Android, Chrome, iOS, Safari */
     transition: color 0.2s;
 }
 
-.social-facebook:hover {
+.ion-logo-facebook:hover {
     color: #3b5998;
 }
 
-.social-linkedin:hover {
+.ion-logo-linkedin:hover {
     color: #007bb5;
 }
 
