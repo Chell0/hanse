@@ -52,4 +52,26 @@ $(document).ready(function () {
                 }
             }
         });
+
+    /* Mobile Navigation */
+    $('.js--nav-icon').click(function() {
+        var nav = $('.js--main-nav');
+        var icon = $('.js--nav-icon i');
+
+        nav.slideToggle(200);
+        if (icon.hasClass('ion-ios-menu')) {
+            // Replace with close icon
+            icon.addClass('ion-md-close');
+            // Remove the menu icon
+            icon.removeClass('ion-ios-menu');
+        } else {
+            // Add the menu icon
+            icon.addClass('ion-ios-menu');
+            // Remove the close icon
+            icon.removeClass('ion-md-close');
+        }
+    });
 });
+
+
+// <i class="icon ion-md-close"></i>
