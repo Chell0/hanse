@@ -203,7 +203,7 @@ h2:after {
     display: none;
 }
 
-.mobile-nav-icon > i{
+.mobile-nav-icon > i {
     font-size: 200%;
     color: #fff;
 }
@@ -340,6 +340,14 @@ h2:after {
     width: 100%;
     height: auto;
     margin-bottom: 15px;
+}
+
+.ion-ios-person {
+    color: #82589f;
+}
+
+.ion-ios-star {
+    color: #82589f;
 }
 
 /*------------------------------------------------------------------------*/
