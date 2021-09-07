@@ -9,7 +9,7 @@ html,
 body {
     background-color: #ffffff;
     color: #555555;
-    font-family: "Lato", "Arial", sans-serif;
+    font-family: "Quicksand", sans-serif;
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
@@ -71,7 +71,7 @@ header {
 
 .hero-text-box > h1 > span {
     font-size: 0.5em;
-    font-weight: 300;
+    font-weight: 500;
 }
 
 /*HEADINGS*/
@@ -79,7 +79,7 @@ h1,
 h2,
 h3 {
     text-transform: uppercase;
-    font-weight: 300;
+    font-weight: 500;
 }
 
 h1 {
@@ -101,7 +101,7 @@ h2 {
 
 h3 {
     font-size: 110%;
-    font-weight: 400;
+    font-weight: 500;
     text-align: center;
     margin-bottom: 15px;
 }
@@ -133,7 +133,7 @@ h2:after {
 .btn:visited {
     display: inline-block;
     padding: 10px 30px;
-    font-weight: 400;
+    font-weight: 500;
     text-decoration: none;
     -webkit-border-raidus: 200px; /* Android, Chrome, iOS, Safari */
     -moz-border-radius: 200px; /* Firefox */
@@ -153,7 +153,7 @@ h2:after {
 .btn-ghost:active {
     background-color: #e84393;
     color: #ffffff;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 /*LOGO*/
@@ -183,7 +183,7 @@ h2:after {
     text-decoration: none;
     text-transform: uppercase;
     font-size: 90%;
-    font-weight: 300;
+    font-weight: 500;
     border-bottom: 2px solid transparent;
     -webkit-transition: border-bottom 0.2s;
     transition: border-bottom 0.2s;
@@ -191,7 +191,7 @@ h2:after {
 
 .main-nav li a:hover,
 .main-nav li a:active {
-    font-weight: 400;
+    font-weight: 500;
     color: #82589f;
 }
 
@@ -237,7 +237,7 @@ h2:after {
 
 .sticky .main-nav li a:hover,
 .sticky .main-nav li a:active {
-    font-weight: 400;
+    font-weight: 500;
 }
 
 /******************************************************/
@@ -319,7 +319,7 @@ h2:after {
 }
 
 .contact-feature > p > span {
-    font-weight: 400;
+    font-weight: 500;
 }
 
 /*------------------------------------------------------------------------*/
@@ -394,7 +394,7 @@ footer {
 .footer-nav li a:hover,
 .footer-nav li a:active {
     color: #e84393;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .social-links li a:link,
