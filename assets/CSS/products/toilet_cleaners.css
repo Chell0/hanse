@@ -149,7 +149,7 @@ section.details__section {
 .product__details h2 {
     font-size: 110%;
     text-transform: uppercase;
-    background-color: #8b4513;
+    background-color: #2d98da;
     color: #ffffff;
     font-weight: 500;
     padding: 10px;
@@ -157,7 +157,7 @@ section.details__section {
 
 .product__details {
     font-size: 80%;
-    border-bottom: 2px solid #8b4513;
+    border-bottom: 2px solid #2d98da;
 }
 
 .product__notes {
@@ -178,7 +178,7 @@ section.details__section {
     font-size: 85%;
     text-transform: uppercase;
     font-weight: 500;
-    color: #8b4513;
+    color: #2d98da;
 }
 
 /*------------------------------------------------------------------------*/
@@ -194,7 +194,7 @@ section.details__section {
 }
 
 .content-table thead tr {
-    background-color: #8b4513;
+    background-color: #2d98da;
     color: #fff;
     text-align: left;
     font-weight: 500;
@@ -217,7 +217,7 @@ section.details__section {
 }
 
 .content-table tbody tr:last-of-type {
-    border-bottom: 2px solid #8b4513;
+    border-bottom: 2px solid #2d98da;
 }
 
 /*------------------------------------------------------------------------*/

@@ -1,0 +1,293 @@
+/*Root*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: #ffffff;
+    color: #555555;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.clearfix:after {
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+/******************************************/
+/*REUSABLE COMPONENTS*/
+/******************************************/
+
+/*Row*/
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/*SECTIONS*/
+section {
+    padding: 80px 0;
+}
+
+/*****************************************/
+/*HEADER*/
+/****************************************/
+/* header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+        url("../../../resources/IMG/catalogue/air-freshener-blocks.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+} */
+
+/*LOGO*/
+.logo {
+    height: 80px;
+    width: auto;
+    float: left;
+    margin-top: 20px;
+}
+
+/*NAVIGATION*/
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 60px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    padding: 8px 0;
+    color: #333333;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 60%;
+    font-weight: 500;
+    border-bottom: 2px solid transparent;
+    -webkit-transition: border-bottom 0.2s;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    font-weight: 500;
+    color: #82589f;
+}
+
+/* ------MOBILE NAVIGATION------- */
+.mobile-nav-icon {
+    float: right;
+    margin-top: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-nav-icon > i {
+    font-size: 200%;
+    color: #fff;
+}
+
+/* ------STICKY NAVIGATION------- */
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.98);
+    box-shadow: 0 2px 2px #efefef;
+    z-index: 9999;
+}
+
+.sticky .main-nav {
+    margin-top: 18px;
+}
+
+.sticky > .row > .sticky-logo {
+    display: block;
+    height: 50px;
+    margin: 5px 0;
+}
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+    padding: 16px 0;
+    color: #82589f;
+}
+
+.sticky .main-nav li a:hover,
+.sticky .main-nav li a:active {
+    font-weight: 500;
+}
+
+/*------------------------------------------------------------------------*/
+/*---------PRODUCT DETAILS SECTION----------------------------------------*/
+/*------------------------------------------------------------------------*/
+section.details__section {
+    padding-bottom: 0;
+}
+
+.product__details h2 {
+    font-size: 110%;
+    text-transform: uppercase;
+    background-color: #3f1010;
+    color: #ffffff;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.product__details {
+    font-size: 80%;
+    border-bottom: 2px solid #3f1010;
+}
+
+.product__notes {
+    padding: 10px;
+    background-color: #f3f3f3;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.product__details ul {
+    list-style: none;
+}
+
+.product__details ul li {
+    font-size: 75%;
+}
+
+.product__features span {
+    font-size: 85%;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #3f1010;
+}
+
+/*------------------------------------------------------------------------*/
+/*---------PRODUCT TABLE--------------------------------------------------*/
+/*------------------------------------------------------------------------*/
+.content-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    min-width: 1140px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table thead tr {
+    background-color: #3f1010;
+    color: #fff;
+    text-align: left;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.content-table th,
+.content-table td {
+    padding: 12px 15px;
+}
+
+.content-table tbody tr {
+    font-size: 70%;
+    font-weight: 500;
+    border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #3f1010;
+}
+
+/*------------------------------------------------------------------------*/
+/*---------FOOTER SECTION-------------------------------------------------*/
+/*------------------------------------------------------------------------*/
+footer {
+    background-color: #333;
+    padding: 20px;
+    font-size: 80%;
+}
+
+.footer-nav {
+    list-style: none;
+    float: left;
+}
+
+.social-links {
+    list-style: none;
+    float: right;
+}
+
+.footer-nav li,
+.social-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-nav li:last-child,
+.social-links li:last-child {
+    margin-right: 0;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited {
+    text-decoration: none;
+    border: 0;
+    color: #888;
+    -webki-transition: color 0.2s; /* Android, Chrome, iOS, Safari */
+    transition: color 0.2s;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active {
+    color: #e84393;
+    font-weight: 500;
+}
+
+.social-links li a:link,
+.social-links li a:visited {
+    font-size: 180%;
+}
+
+.ion-logo-facebook,
+.ion-logo-linkedin {
+    -webkit-transition: color 0.2s; /* Android, Chrome, iOS, Safari */
+    transition: color 0.2s;
+}
+
+.ion-logo-facebook:hover {
+    color: #3b5998;
+}
+
+.ion-logo-linkedin:hover {
+    color: #007bb5;
+}
+
+footer p {
+    color: #888;
+    text-align: center;
+    margin-top: 20px;
+}
