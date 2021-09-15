@@ -46,14 +46,73 @@ section {
 /*****************************************/
 /*HEADER*/
 /****************************************/
-/* header {
+header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-        url("../../../resources/IMG/catalogue/air-freshener-blocks.png");
+        url("../../../resources/IMG/background.png");
     background-size: cover;
     background-position: center;
     height: 100vh;
     background-attachment: fixed;
-} */
+}
+
+.hero-text-box {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%); /* Android, Chrome, iOS, Safari */
+    -moz-transform: translate(-50%, -50%); /* Firefox */
+    transform: translate(-50%, -50%);
+}
+
+.hero-text-box > h1 > span {
+    font-size: 0.5em;
+    font-weight: 500;
+}
+
+h1,
+h2,
+h3 {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-size: 240%;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+}
+
+/*BUTTONS*/
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 500;
+    text-decoration: none;
+    -webkit-border-raidus: 200px; /* Android, Chrome, iOS, Safari */
+    -moz-border-radius: 200px; /* Firefox */
+    -o-border-radius: 200px; /* Opera */
+    border-radius: 200px;
+    -webkit-transition: background-color 0.2s, border-color 0.2s, color 0.2s;
+    transition: background-color 0.2s, border-color 0.2s, color 0.2s;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+    background-color: #82589f;
+    color: #ffffff;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+    background-color: #e84393;
+    color: #ffffff;
+    font-weight: 500;
+}
 
 /*LOGO*/
 .logo {
@@ -64,33 +123,79 @@ section {
 }
 
 /*NAVIGATION*/
-.main-nav {
-    float: right;
+/* ------Main Menu----------- */
+.nav {
+    position: fixed;
+    width: 100vw;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2rem;
+    margin: 0 2rem;
+}
+
+.nav .nav__list .nav__list__logo {
     list-style: none;
-    margin-top: 60px;
+    margin-right: auto;
+    cursor: pointer;
 }
 
-.main-nav li {
-    display: inline-block;
-    margin-left: 40px;
+.nav .nav__list .nav__list__item {
+    list-style: none;
+    font-weight: 500;
+    position: relative;
+    padding: 1.5rem 1rem;
+    cursor: pointer;
+    color: #000000;
+    font-size: 80%;
 }
 
-.main-nav li a:link,
-.main-nav li a:visited {
-    padding: 8px 0;
-    color: #333333;
+.nav ul.nav__list li.nav__list__item:hover ul,
+.nav .nav__list .nav__list__item:focus ul {
+    opacity: 1;
+    visibility: visible;
+}
+
+.nav .nav__list .nav__list__item a {
     text-decoration: none;
-    text-transform: uppercase;
-    font-size: 60%;
-    font-weight: 500;
-    border-bottom: 2px solid transparent;
-    -webkit-transition: border-bottom 0.2s;
-    transition: border-bottom 0.2s;
+    color: #000000;
 }
 
-.main-nav li a:hover,
-.main-nav li a:active {
+.nav .nav__list .nav__list__item ul.nav__list__drop__down {
+    position: absolute;
+    top: 4rem;
+    left: -1rem;
+    background-color: #f1f1f1;
+    border: 1px solid #444444;
+    border-radius: 0.2rem;
+    width: 12rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 600ms ease-in-out;
+}
+
+.nav .nav__list .nav__list__item ul.nav__list__drop__down li {
+    font-size: 80%;
+    list-style: none;
+    border-radius: 0.2rem;
+    transition: background 200ms ease-in-out;
+}
+
+.nav .nav__list .nav__list__item ul.nav__list__drop__down li:hover,
+.nav .nav__list .nav__list__item ul.nav__list__drop__down li:focus {
     font-weight: 500;
+}
+
+.nav .nav__list .nav__list__item ul.nav__list__drop__down li a {
+    text-decoration: none;
+    cursor: pointer;
     color: #82589f;
 }
 
