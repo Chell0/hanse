@@ -192,7 +192,7 @@ h2:after {
     position: relative;
     padding: 1.5rem 1rem;
     cursor: pointer;
-    color: #000000;
+    color: #ffffff;
     font-size: 80%;
 }
 
@@ -204,15 +204,15 @@ h2:after {
 
 .nav .nav__list .nav__list__item a {
     text-decoration: none;
-    color: #000000;
+    color: #ffffff;
 }
 
 .nav .nav__list .nav__list__item ul.nav__list__drop__down {
     position: absolute;
     top: 4rem;
     left: -1rem;
-    background-color: #f1f1f1;
-    border: 1px solid #444444;
+    background-color: #ea8685;
+    box-shadow: 0 0 10px #ff6b6b;
     border-radius: 0.2rem;
     width: 12rem;
     padding: 1rem;
@@ -221,14 +221,14 @@ h2:after {
     gap: 0.5rem;
     opacity: 0;
     visibility: hidden;
-    transition: opacity 600ms ease-in-out;
+    transition: opacity 300ms ease-in-out;
 }
 
 .nav .nav__list .nav__list__item ul.nav__list__drop__down li {
     font-size: 80%;
     list-style: none;
     border-radius: 0.2rem;
-    transition: background 200ms ease-in-out;
+    transition: background 100ms ease-in-out;
 }
 
 .nav .nav__list .nav__list__item ul.nav__list__drop__down li:hover,
@@ -239,7 +239,7 @@ h2:after {
 .nav .nav__list .nav__list__item ul.nav__list__drop__down li a {
     text-decoration: none;
     cursor: pointer;
-    color: #82589f;
+    color: #ffffff;
 }
 /* ------MOBILE NAVIGATION------- */
 .mobile-nav-icon {
@@ -260,13 +260,13 @@ h2:after {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.98);
+    background-color: #ea8685;
     box-shadow: 0 2px 2px #efefef;
     z-index: 9999;
 }
 
-.sticky .main-nav {
-    margin-top: 18px;
+.sticky .nav__list {
+    margin-top: -5px;
 }
 
 .sticky .nav__list .nav__list__logo .sticky-logo {
@@ -275,14 +275,13 @@ h2:after {
     margin: 5px 0;
 }
 
-.sticky .main-nav li a:link,
-.sticky .main-nav li a:visited {
-    padding: 16px 0;
-    color: #82589f;
+.sticky .nav__list li a:link,
+.sticky .nav__list li a:visited {
+    padding: 12px 0;
 }
 
-.sticky .main-nav li a:hover,
-.sticky .main-nav li a:active {
+.sticky .nav__list li a:hover,
+.sticky .nav__list li a:active {
     font-weight: 500;
 }
 
