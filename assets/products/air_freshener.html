@@ -58,201 +58,106 @@
     <body>
         <!--Header Section-->
         <header>
-            <nav>
-                <div class="row">
-                    <img
-                        alt="Hanse logo"
-                        class="logo sticky-logo"
-                        src="../../resources/IMG/logo/logo.png"
-                    />
-                    <ul class="main-nav js--main-nav">
-                        <li><a href="../../index.html">Home</a></li>
-                        <li><a href="../../about.html">About Us</a></li>
-                        <li>
-                            <a href="#products">Products</a>
-                        </li>
-                        <li><a href="#details">Details</a></li>
-                    </ul>
-                    <a class="mobile-nav-icon js--nav-icon"
-                        ><i class="icon ion-ios-menu"></i
-                    ></a>
-                </div>
+            <nav class="nav">
+                <ul class="nav__list js--main-nav">
+                    <li class="nav__list__logo">
+                        <img
+                            alt="Hanse logo"
+                            class="logo sticky-logo"
+                            src="../../resources/IMG/logo/logo.png"
+                        />
+                    </li>
+                    <li class="nav__list__item">
+                        <a href="../../index.html">Home</a>
+                    </li>
+                    <li class="nav__list__item">
+                        <a href="#">Products</a>
+                        <ul class="nav__list__drop__down">
+                            <li>
+                                <a href="../products/air_freshener_blocks.html"
+                                    >Air Freshener Blocks</a
+                                >
+                            </li>
+                            <li>
+                                <a href="../products/bleach.html">Bleach</a>
+                            </li>
+                            <li>
+                                <a href="../products/car_carpet.html"
+                                    >Car & Carpet Shampoo</a
+                                >
+                            </li>
+                            <li>
+                                <a href="../products/dish_wash.html"
+                                    >Dish Washing Paste & Liquid</a
+                                >
+                            </li>
+                            <li>
+                                <a href="../products/disinfectant_liquid.html"
+                                    >Disinfectant Liquid</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="../products/disinfectant_toilet_balls.html"
+                                    >Disinfectant Toilet Balls</a
+                                >
+                            </li>
+                            <li>
+                                <a href="../products/fabric_softener.html"
+                                    >Fabric Softener</a
+                                >
+                            </li>
+                            <li>
+                                <a href="../products/foam_soap.html"
+                                    >Foam Soap</a
+                                >
+                            </li>
+                            <li>
+                                <a href="../products/glass_window_cleaner.html"
+                                    >Window Cleaner</a
+                                >
+                            </li>
+                            <li>
+                                <a href="../products/hand_sanitizer.html"
+                                    >Hand Sanitizer</a
+                                >
+                            </li>
+                            <li>
+                                <a href="../products/hand_wash.html"
+                                    >Hand Wash</a
+                                >
+                            </li>
+                            <li>
+                                <a href="../products/multipurpose.html"
+                                    >Multipurpose Liquid</a
+                                >
+                            </li>
+                            <li>
+                                <a href="../products/scouring_powder.html"
+                                    >Scouring Powder</a
+                                >
+                            </li>
+                            <li>
+                                <a href="../products/shower_gel.html"
+                                    >Shower Gel</a
+                                >
+                            </li>
+                            <li>
+                                <a href="../products/toilet_cleaners.html"
+                                    >Toilet Cleaners</a
+                                >
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav__list__item">
+                        <a href="../../index.html">Contact Us</a>
+                    </li>
+                </ul>
+                <a class="mobile-nav-icon js--nav-icon"
+                    ><i class="icon ion-ios-menu"></i
+                ></a>
             </nav>
         </header>
-
-        <!--Catalog Selection-->
-        <!-- <section class="section-catalogue js--section-catalogue" id="products">
-            <ul class="catalogue-showcase clearfix">
-                <li>
-                    <figure class="catalogue-photo">
-                        <a href="assets/products/bleach.html">
-                            <img
-                                alt="Bleach"
-                                src="../../resources/IMG/catalogue/bleach.png"
-                            />
-                        </a>
-                    </figure>
-                </li>
-                <li>
-                    <figure class="catalogue-photo">
-                        <a href="assets/products/dish_wash.html">
-                            <img
-                                alt="Dish Washing Paste & Liquid"
-                                src="../../resources/IMG/catalogue/dish-washing-paste-liquid.png"
-                            />
-                        </a>
-                    </figure>
-                </li>
-                <li>
-                    <figure class="catalogue-photo">
-                        <a href="assets/products/hand_wash.html">
-                            <img
-                                alt="Hand Wash"
-                                src="../../resources/IMG/catalogue/hand-wash.png"
-                            />
-                        </a>
-                    </figure>
-                </li>
-                <li>
-                    <figure class="catalogue-photo">
-                        <a href="assets/products/hand_sanitizer.html">
-                            <img
-                                alt="Hand Sanitizer"
-                                src="../../resources/IMG/catalogue/hand-sanitizer.png"
-                            />
-                        </a>
-                    </figure>
-                </li>
-            </ul>
-            <ul class="catalogue-showcase clearfix">
-                <li>
-                    <figure class="catalogue-photo">
-                        <a href="assets/products/toilet_cleaners.html">
-                            <img
-                                alt="Toilet Cleaners"
-                                src="../../resources/IMG/catalogue/toilet-cleaner.png"
-                            />
-                        </a>
-                    </figure>
-                </li>
-                <li>
-                    <figure class="catalogue-photo">
-                        <a href="assets/products/scouring_powder.html">
-                            <img
-                                alt="Scouring Powder"
-                                src="../../resources/IMG/catalogue/toilet-cleaners-scouring-powder.png"
-                            />
-                        </a>
-                    </figure>
-                </li>
-                <li>
-                    <figure class="catalogue-photo">
-                        <a href="assets/products/air_freshener.html">
-                            <img
-                                alt="Air Freshener"
-                                src="../../resources/IMG/catalogue/air-freshener.png"
-                            />
-                        </a>
-                    </figure>
-                </li>
-                <li>
-                    <figure class="catalogue-photo">
-                        <a href="assets/products/car_carpet.html">
-                            <img
-                                alt="Car & Carpet Shampoo"
-                                src="../../resources/IMG/catalogue/car-carpet-shampoo.png"
-                            />
-                        </a>
-                    </figure>
-                </li>
-            </ul>
-            <ul class="catalogue-showcase clearfix">
-                <li>
-                    <figure class="catalogue-photo">
-                        <a href="assets/products/multipurpose.html">
-                            <img
-                                alt="Multipurpose Liquid Detergents"
-                                src="../../resources/IMG/catalogue/multipurpose-liquid-detergents.png"
-                            />
-                        </a>
-                    </figure>
-                </li>
-                <li>
-                    <figure class="catalogue-photo">
-                        <a
-                            href="assets/products/disinfectant_toilet_balls.html"
-                        >
-                            <img
-                                alt="Disinfectant Toilet Balls"
-                                src="../../resources/IMG/catalogue/disinfectant-toilet-balls.png"
-                            />
-                        </a>
-                    </figure>
-                </li>
-                <li>
-                    <figure class="catalogue-photo">
-                        <a href="assets/products/disinfectant_liquid.html">
-                            <img
-                                alt="Disinfectant Liquid"
-                                src="../../resources/IMG/catalogue/disinfectant-liquid.png"
-                            />
-                        </a>
-                    </figure>
-                </li>
-                <li>
-                    <figure class="catalogue-photo">
-                        <a href="assets/products/glass_window_cleaner.html">
-                            <img
-                                alt="Window & Glass Cleaner"
-                                src="../../resources/IMG/catalogue/window-glass-cleaner.png"
-                            />
-                        </a>
-                    </figure>
-                </li>
-            </ul>
-            <ul class="catalogue-showcase clearfix">
-                <li>
-                    <figure class="catalogue-photo">
-                        <a href="assets/products/shower_gel.html">
-                            <img
-                                alt="Shower Gel"
-                                src="../../resources/IMG/catalogue/shower-gel.png"
-                            />
-                        </a>
-                    </figure>
-                </li>
-                <li>
-                    <figure class="catalogue-photo">
-                        <a href="assets/products/fabric_softener.html">
-                            <img
-                                alt="Fabric Softener"
-                                src="../../resources/IMG/catalogue/fabric-softener.png"
-                            />
-                        </a>
-                    </figure>
-                </li>
-                <li>
-                    <figure class="catalogue-photo">
-                        <a href="assets/products/foam_soap.html">
-                            <img
-                                alt="Foam Soap"
-                                src="../../resources/IMG/catalogue/foam-soap.png"
-                            />
-                        </a>
-                    </figure>
-                </li>
-                <li>
-                    <figure class="catalogue-photo">
-                        <a href="assets/products/air_freshener_blocks.html">
-                            <img
-                                alt="Air Freshener Blocks"
-                                src="../../resources/IMG/catalogue/air-freshener-blocks.png"
-                            />
-                        </a>
-                    </figure>
-                </li>
-            </ul>
-        </section> -->
 
         <!-- Product Details -->
         <section class="details__section">
@@ -350,10 +255,10 @@
             <div class="row">
                 <div class="col span-1-of-2">
                     <ul class="footer-nav">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="#catalog">Catalogue</a></li>
-                        <li><a href="#products">Products</a></li>
+                        <li><a href="../../index.html">Home</a></li>
+                        <li><a href="../../about.html">About Us</a></li>
+                        <li><a href="../../index.html">Catalogue</a></li>
+                        <li><a href="air_freshener.html">Products</a></li>
                     </ul>
                 </div>
                 <div class="col span-1-of-2">
