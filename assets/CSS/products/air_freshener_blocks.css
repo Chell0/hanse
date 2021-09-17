@@ -117,12 +117,6 @@ header .nav .nav__list .nav__list__item a {
     text-decoration: none;
 }
 
-header .nav .nav__list .nav__list__item a:hover,
-header .nav .nav__list .nav__list__item a:focus {
-    /* text-transform: uppercase; */
-    border-bottom: 2px solid #db7373;
-}
-
 header .nav .nav__list .nav__list__item .nav__list__drop__down {
     position: absolute;
     top: 4rem;
