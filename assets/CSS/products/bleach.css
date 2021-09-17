@@ -46,52 +46,97 @@ section {
 /*****************************************/
 /*HEADER*/
 /****************************************/
-/* header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-        url("../../../resources/IMG/catalogue/air-freshener-blocks.png");
-    background-size: cover;
-    background-position: center;
+header {
+    background-color: #227093;
     height: 100vh;
-    background-attachment: fixed;
-} */
+}
 
 /*LOGO*/
 .logo {
-    height: 80px;
+    height: 50px;
     width: auto;
     float: left;
-    margin-top: 20px;
 }
 
 /*NAVIGATION*/
-.main-nav {
-    float: right;
+/* ------Main Menu----------- */
+header .nav {
+    position: fixed;
+    width: 100vw;
+    box-shadow: 0 0 10px #2c90bc;
+}
+
+header .nav .nav__list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2rem;
+    margin: 0 2rem;
+}
+
+header .nav .nav__list .nav__list__logo {
     list-style: none;
-    margin-top: 60px;
+    margin-right: auto;
+    cursor: pointer;
 }
 
-.main-nav li {
-    display: inline-block;
-    margin-left: 40px;
+header .nav .nav__list .nav__list__item {
+    list-style: none;
+    font-size: 80%;
+    font-weight: 500;
+    position: relative;
+    padding: 1.5rem 1rem;
+    cursor: pointer;
 }
 
-.main-nav li a:link,
-.main-nav li a:visited {
-    padding: 8px 0;
-    color: #333333;
+header .nav .nav__list .nav__list__item a {
+    font-size: 80%;
+}
+
+header .nav .nav__list .nav__list__item:hover ul,
+header .nav .nav__list .nav__list__item:focus ul {
+    opacity: 1;
+    visibility: visible;
+}
+
+header .nav .nav__list .nav__list__item a {
+    color: #ffffff;
     text-decoration: none;
-    text-transform: uppercase;
-    font-size: 60%;
-    font-weight: 500;
-    border-bottom: 2px solid transparent;
-    -webkit-transition: border-bottom 0.2s;
-    transition: border-bottom 0.2s;
 }
 
-.main-nav li a:hover,
-.main-nav li a:active {
-    font-weight: 500;
-    color: #82589f;
+header .nav .nav__list .nav__list__item .nav__list__drop__down {
+    position: absolute;
+    top: 4rem;
+    left: -0.5rem;
+    box-shadow: 0 0 10px #2c90bc;
+    background-color: #227093;
+    border-radius: 0.2rem;
+    width: 12rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 200ms ease-in-out;
+}
+
+header .nav .nav__list .nav__list__item .nav__list__drop__down li {
+    font-size: 90%;
+    list-style: none;
+    padding: 0.2rem 0.7rem;
+    border-radius: 0.2rem;
+    transition: background-color 100ms ease-in-out;
+}
+
+header .nav .nav__list .nav__list__item .nav__list__drop__down li:hover,
+header .nav .nav__list .nav__list__item .nav__list__drop__down li:focus {
+    background: #47a9d4;
+}
+
+header .nav .nav__list .nav__list__item .nav__list__drop__down li a {
+    text-decoration: none;
+    color: #ffffff;
 }
 
 /* ------MOBILE NAVIGATION------- */
