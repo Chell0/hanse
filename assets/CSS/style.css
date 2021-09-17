@@ -159,10 +159,9 @@ h2:after {
 
 /*LOGO*/
 .logo {
-    height: 100px;
+    height: 50px;
     width: auto;
     float: left;
-    margin-top: 20px;
 }
 
 /*NAVIGATION
@@ -192,7 +191,11 @@ h2:after {
     position: relative;
     padding: 1.5rem 1rem;
     cursor: pointer;
-    color: #ffffff;
+    /* color: #ffffff; */
+    font-size: 80%;
+}
+
+header .nav .nav__list .nav__list__item a {
     font-size: 80%;
 }
 
@@ -225,7 +228,7 @@ h2:after {
 }
 
 .nav .nav__list .nav__list__item ul.nav__list__drop__down li {
-    font-size: 80%;
+    font-size: 90%;
     list-style: none;
     padding: 0.2rem 0.7rem;
     border-radius: 0.2rem;
