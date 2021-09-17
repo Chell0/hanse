@@ -197,7 +197,7 @@ h2:after {
 }
 
 .nav ul.nav__list li.nav__list__item:hover ul,
-.nav .nav__list .nav__list__item:focus ul {
+.nav ul.nav__list li.nav__list__item:focus ul {
     opacity: 1;
     visibility: visible;
 }
@@ -210,7 +210,7 @@ h2:after {
 .nav .nav__list .nav__list__item ul.nav__list__drop__down {
     position: absolute;
     top: 4rem;
-    left: -1rem;
+    left: -0.5rem;
     background-color: #ea8685;
     box-shadow: 0 0 10px #ff6b6b;
     border-radius: 0.2rem;
@@ -221,19 +221,20 @@ h2:after {
     gap: 0.5rem;
     opacity: 0;
     visibility: hidden;
-    transition: opacity 300ms ease-in-out;
+    transition: opacity 200ms ease-in-out;
 }
 
 .nav .nav__list .nav__list__item ul.nav__list__drop__down li {
     font-size: 80%;
     list-style: none;
+    padding: 0.2rem 0.7rem;
     border-radius: 0.2rem;
     transition: background 100ms ease-in-out;
 }
 
 .nav .nav__list .nav__list__item ul.nav__list__drop__down li:hover,
 .nav .nav__list .nav__list__item ul.nav__list__drop__down li:focus {
-    font-weight: 500;
+    background: #d65f5f;
 }
 
 .nav .nav__list .nav__list__item ul.nav__list__drop__down li a {
