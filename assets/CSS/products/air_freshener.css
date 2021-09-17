@@ -46,14 +46,79 @@ section {
 /*****************************************/
 /*HEADER*/
 /****************************************/
-/* header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-        url("../../../resources/IMG/catalogue/air-freshener-blocks.png");
-    background-size: cover;
-    background-position: center;
+header {
+    background-color: #8b0000;
     height: 100vh;
-    background-attachment: fixed;
-} */
+}
+
+header .nav .nav__list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2rem;
+    margin: 0 2rem;
+}
+
+header .nav .nav__list .nav__list__logo {
+    list-style: none;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+header .nav .nav__list .nav__list__item {
+    list-style: none;
+    font-size: 80%;
+    font-weight: 500;
+    position: relative;
+    padding: 1.5rem 1rem;
+    cursor: pointer;
+}
+
+header .nav .nav__list .nav__list__item:hover ul,
+header .nav .nav__list .nav__list__item:focus ul {
+    opacity: 1;
+    visibility: visible;
+}
+
+header .nav .nav__list .nav__list__item a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header .nav .nav__list .nav__list__item .nav__list__drop__down {
+    position: absolute;
+    top: 4rem;
+    left: -0.5rem;
+    box-shadow: 0 0 10px #5e1818;
+    background-color: #8b0000;
+    border-radius: 0.2rem;
+    width: 12rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 200ms ease-in-out;
+}
+
+header .nav .nav__list .nav__list__item .nav__list__drop__down li {
+    font-size: 80%;
+    list-style: none;
+    padding: 0.2rem 0.7rem;
+    border-radius: 0.2rem;
+    transition: background-color 100ms ease-in-out;
+}
+
+header .nav .nav__list .nav__list__item .nav__list__drop__down li:hover,
+header .nav .nav__list .nav__list__item .nav__list__drop__down li:focus {
+    background: #ff3d3d;
+}
+
+header .nav .nav__list .nav__list__item .nav__list__drop__down li a {
+    text-decoration: none;
+    color: #ffffff;
+}
 
 /*LOGO*/
 .logo {
@@ -64,34 +129,10 @@ section {
 }
 
 /*NAVIGATION*/
-.main-nav {
-    float: right;
-    list-style: none;
-    margin-top: 60px;
-}
-
-.main-nav li {
-    display: inline-block;
-    margin-left: 40px;
-}
-
-.main-nav li a:link,
-.main-nav li a:visited {
-    padding: 8px 0;
-    color: #333333;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 60%;
-    font-weight: 500;
-    border-bottom: 2px solid transparent;
-    -webkit-transition: border-bottom 0.2s;
-    transition: border-bottom 0.2s;
-}
-
-.main-nav li a:hover,
-.main-nav li a:active {
-    font-weight: 500;
-    color: #82589f;
+header .nav {
+    position: fixed;
+    width: 100vw;
+    box-shadow: 0 0 10px #5e1818;
 }
 
 /* ------MOBILE NAVIGATION------- */
@@ -113,13 +154,13 @@ section {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.98);
+    background-color: #8b0000;
     box-shadow: 0 2px 2px #efefef;
     z-index: 9999;
 }
 
 .sticky .main-nav {
-    margin-top: 18px;
+    margin-top: -5px;
 }
 
 .sticky > .row > .sticky-logo {
@@ -130,8 +171,7 @@ section {
 
 .sticky .main-nav li a:link,
 .sticky .main-nav li a:visited {
-    padding: 16px 0;
-    color: #82589f;
+    padding: 12px 0;
 }
 
 .sticky .main-nav li a:hover,
@@ -178,7 +218,7 @@ section.details__section {
     font-size: 85%;
     text-transform: uppercase;
     font-weight: 500;
-    color: #82589f;
+    color: #8b0000;
 }
 
 /*------------------------------------------------------------------------*/
