@@ -69,10 +69,9 @@ h1 {
 
 /*LOGO*/
 .logo {
-    height: 70px;
+    height: 50px;
     width: auto;
     float: left;
-    margin-top: 20px;
 }
 
 /*NAVIGATION
@@ -106,6 +105,10 @@ header .nav .nav__list .nav__list__item {
     cursor: pointer;
 }
 
+header .nav .nav__list .nav__list__item a {
+    font-size: 80%;
+}
+
 header .nav .nav__list .nav__list__item:hover ul,
 header .nav .nav__list .nav__list__item:focus ul {
     opacity: 1;
@@ -135,7 +138,7 @@ header .nav .nav__list .nav__list__item .nav__list__drop__down {
 }
 
 header .nav .nav__list .nav__list__item .nav__list__drop__down li {
-    font-size: 80%;
+    font-size: 90%;
     list-style: none;
     padding: 0.2rem 0.7rem;
     border-radius: 0.2rem;
