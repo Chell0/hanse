@@ -175,7 +175,7 @@ header .nav .nav__list .nav__list__item .nav__list__drop__down li a {
     left: 0;
     width: 100%;
     background-color: #3f1010;
-    box-shadow: 0 2px 2px #efefef;
+    box-shadow: 0 2px 2px #5e1818;
     z-index: 9999;
 }
 
@@ -223,7 +223,7 @@ section.details__section {
 .product__notes {
     padding: 10px;
     background-color: #f3f3f3;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 20px #5e1818;
 }
 
 .product__details ul {
@@ -243,7 +243,7 @@ section.details__section {
     font-size: 90%;
     text-transform: uppercase;
     font-weight: 500;
-    color: #82589f;
+    color: #3f1010;
 }
 
 /*------------------------------------------------------------------------*/
@@ -255,14 +255,14 @@ section.details__section {
     min-width: 1140px;
     border-radius: 5px 5px 0 0;
     overflow: hidden;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 20px #5e1818;
 }
 
 .content-table thead tr {
     background-color: #3f1010;
     color: #fff;
     text-align: left;
-    font-size:  70%;
+    font-size: 70%;
     font-weight: 500;
     text-transform: uppercase;
 }

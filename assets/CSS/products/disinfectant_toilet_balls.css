@@ -207,7 +207,7 @@ section.details__section {
 .product__notes {
     padding: 10px;
     background-color: #f3f3f3;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 20px #5e1818;
 }
 
 .product__details ul {
@@ -239,7 +239,7 @@ section.details__section {
     min-width: 1140px;
     border-radius: 5px 5px 0 0;
     overflow: hidden;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 20px #5e1818;
 }
 
 .content-table thead tr {

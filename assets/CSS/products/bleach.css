@@ -159,7 +159,7 @@ header .nav .nav__list .nav__list__item .nav__list__drop__down li a {
     left: 0;
     width: 100%;
     background-color: rgba(255, 255, 255, 0.98);
-    box-shadow: 0 2px 2px #efefef;
+    box-shadow: 0 2px 2px #2c90bc;
     z-index: 9999;
 }
 
@@ -176,7 +176,6 @@ header .nav .nav__list .nav__list__item .nav__list__drop__down li a {
 .sticky .main-nav li a:link,
 .sticky .main-nav li a:visited {
     padding: 16px 0;
-    color: #82589f;
 }
 
 .sticky .main-nav li a:hover,
@@ -192,7 +191,7 @@ section.details__section {
 }
 
 .product__details h2 {
-    font-size: 110%;
+    font-size: 90%;
     text-transform: uppercase;
     background-color: #227093;
     color: #ffffff;
@@ -201,14 +200,14 @@ section.details__section {
 }
 
 .product__details {
-    font-size: 80%;
+    font-size: 70%;
     border-bottom: 2px solid #227093;
 }
 
 .product__notes {
     padding: 10px;
     background-color: #f3f3f3;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 20px #2c90bc;
 }
 
 .product__details ul {
@@ -216,11 +215,16 @@ section.details__section {
 }
 
 .product__details ul li {
-    font-size: 75%;
+    font-size: 85%;
+}
+
+.product__details ul li .features {
+    font-weight: 500;
+    color: #227093;
 }
 
 .product__features span {
-    font-size: 85%;
+    font-size: 90%;
     text-transform: uppercase;
     font-weight: 500;
     color: #227093;
@@ -235,15 +239,23 @@ section.details__section {
     min-width: 1140px;
     border-radius: 5px 5px 0 0;
     overflow: hidden;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 20px #2c90bc;
 }
 
 .content-table thead tr {
     background-color: #227093;
     color: #fff;
     text-align: left;
+    font-size: 70%;
     font-weight: 500;
     text-transform: uppercase;
+}
+
+.content-table tbody th {
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #227093;
 }
 
 .content-table th,
@@ -252,7 +264,7 @@ section.details__section {
 }
 
 .content-table tbody tr {
-    font-size: 70%;
+    font-size: 60%;
     font-weight: 500;
     border-bottom: 1px solid #dddddd;
 }

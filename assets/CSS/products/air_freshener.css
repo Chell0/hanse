@@ -64,7 +64,7 @@ header {
 header .nav {
     position: fixed;
     width: 100vw;
-    box-shadow: 0 0 10px #5e1818;
+    box-shadow: 0 0 10px #ff3d3d;
 }
 
 header .nav .nav__list {
@@ -109,7 +109,7 @@ header .nav .nav__list .nav__list__item .nav__list__drop__down {
     position: absolute;
     top: 4rem;
     left: -0.5rem;
-    box-shadow: 0 0 10px #5e1818;
+    box-shadow: 0 0 10px #ff3d3d;
     background-color: #8b0000;
     border-radius: 0.2rem;
     width: 12rem;
@@ -160,27 +160,27 @@ header .nav .nav__list .nav__list__item .nav__list__drop__down li a {
     left: 0;
     width: 100%;
     background-color: #8b0000;
-    box-shadow: 0 2px 2px #efefef;
+    box-shadow: 0 2px 2px #ff3d3d;
     z-index: 9999;
 }
 
-.sticky .main-nav {
+.sticky .nav__list {
     margin-top: -5px;
 }
 
-.sticky > .row > .sticky-logo {
+.sticky .nav__list .nav__list__logo .sticky-logo {
     display: block;
     height: 50px;
     margin: 5px 0;
 }
 
-.sticky .main-nav li a:link,
-.sticky .main-nav li a:visited {
+.sticky .nav__list li a:link,
+.sticky .nav__list li a:visited {
     padding: 12px 0;
 }
 
-.sticky .main-nav li a:hover,
-.sticky .main-nav li a:active {
+.sticky .nav__list li a:hover,
+.sticky .nav__list li a:active {
     font-weight: 500;
 }
 
@@ -192,7 +192,7 @@ section.details__section {
 }
 
 .product__details h2 {
-    font-size: 110%;
+    font-size: 90%;
     text-transform: uppercase;
     background-color: #8b0000;
     color: #ffffff;
@@ -201,14 +201,14 @@ section.details__section {
 }
 
 .product__details {
-    font-size: 80%;
+    font-size: 70%;
     border-bottom: 2px solid #8b0000;
 }
 
 .product__notes {
     padding: 10px;
     background-color: #f3f3f3;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 20px #ff3d3d;
 }
 
 .product__details ul {
@@ -216,11 +216,16 @@ section.details__section {
 }
 
 .product__details ul li {
-    font-size: 75%;
+    font-size: 85%;
+}
+
+.product__details ul li .features {
+    font-weight: 500;
+    color: #8b0000;
 }
 
 .product__features span {
-    font-size: 85%;
+    font-size: 90%;
     text-transform: uppercase;
     font-weight: 500;
     color: #8b0000;
@@ -235,7 +240,7 @@ section.details__section {
     min-width: 1140px;
     border-radius: 5px 5px 0 0;
     overflow: hidden;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 20px #ff3d3d;
 }
 
 .content-table thead tr {
@@ -246,13 +251,20 @@ section.details__section {
     text-transform: uppercase;
 }
 
+.content-table tbody th {
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #8b0000;
+}
+
 .content-table th,
 .content-table td {
     padding: 12px 15px;
 }
 
 .content-table tbody tr {
-    font-size: 70%;
+    font-size: 60%;
     font-weight: 500;
     border-bottom: 1px solid #dddddd;
 }
