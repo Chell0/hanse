@@ -43,6 +43,16 @@ section {
     padding: 80px 0;
 }
 
+.box {
+    padding: 1%;
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
 /*LOGO*/
 .logo {
     height: 50px;
@@ -195,6 +205,30 @@ section {
     display: block;
     margin: auto;
     box-shadow: 0 0 20px #ff3d3d;
+}
+
+/* ----------------------------------------------------------------------- */
+/* -----------Product Section----------- */
+/* ----------------------------------------------------------------------- */
+.products__section .row .col h5 {
+    font-weight: normal;
+    font-size: 70%;
+}
+
+.products__section .row .col:first-of-type {
+    width: 17%;
+}
+
+.products__section .row .col:nth-child(3n) {
+    width: 17.2%;
+}
+
+.products__section .row .rose {
+    width: 16.8%;
+}
+
+.products__section .row .lavender {
+    width: 17.95%;
 }
 
 /*------------------------------------------------------------------------*/
