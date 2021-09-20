@@ -43,14 +43,6 @@ section {
     padding: 80px 0;
 }
 
-/*****************************************/
-/*HEADER*/
-/****************************************/
-header {
-    background-color: #007bd1;
-    height: 100vh;
-}
-
 /*LOGO*/
 .logo {
     height: 50px;
@@ -60,13 +52,14 @@ header {
 
 /*NAVIGATION*/
 /* ------Main Menu----------- */
-header .nav {
+.nav {
     position: fixed;
     width: 100vw;
+    background-color: #007bd1;
     box-shadow: 0 0 10px #48b4ff;
 }
 
-header .nav .nav__list {
+.nav .nav__list {
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -74,13 +67,13 @@ header .nav .nav__list {
     margin: 0 2rem;
 }
 
-header .nav .nav__list .nav__list__logo {
+.nav .nav__list .nav__list__logo {
     list-style: none;
     margin-right: auto;
     cursor: pointer;
 }
 
-header .nav .nav__list .nav__list__item {
+.nav .nav__list .nav__list__item {
     list-style: none;
     font-size: 80%;
     font-weight: 500;
@@ -89,22 +82,22 @@ header .nav .nav__list .nav__list__item {
     cursor: pointer;
 }
 
-header .nav .nav__list .nav__list__item a {
+.nav .nav__list .nav__list__item a {
     font-size: 80%;
 }
 
-header .nav .nav__list .nav__list__item:hover ul,
-header .nav .nav__list .nav__list__item:focus ul {
+.nav .nav__list .nav__list__item:hover ul,
+.nav .nav__list .nav__list__item:focus ul {
     opacity: 1;
     visibility: visible;
 }
 
-header .nav .nav__list .nav__list__item a {
+.nav .nav__list .nav__list__item a {
     color: #ffffff;
     text-decoration: none;
 }
 
-header .nav .nav__list .nav__list__item .nav__list__drop__down {
+.nav .nav__list .nav__list__item .nav__list__drop__down {
     position: absolute;
     top: 4rem;
     left: -0.5rem;
@@ -121,7 +114,7 @@ header .nav .nav__list .nav__list__item .nav__list__drop__down {
     transition: opacity 200ms ease-in-out;
 }
 
-header .nav .nav__list .nav__list__item .nav__list__drop__down li {
+.nav .nav__list .nav__list__item .nav__list__drop__down li {
     font-size: 90%;
     list-style: none;
     padding: 0.2rem 0.7rem;
@@ -129,12 +122,12 @@ header .nav .nav__list .nav__list__item .nav__list__drop__down li {
     transition: background-color 100ms ease-in-out;
 }
 
-header .nav .nav__list .nav__list__item .nav__list__drop__down li:hover,
-header .nav .nav__list .nav__list__item .nav__list__drop__down li:focus {
+.nav .nav__list .nav__list__item .nav__list__drop__down li:hover,
+.nav .nav__list .nav__list__item .nav__list__drop__down li:focus {
     background: #48b4ff;
 }
 
-header .nav .nav__list .nav__list__item .nav__list__drop__down li a {
+.nav .nav__list .nav__list__item .nav__list__drop__down li a {
     text-decoration: none;
     color: #ffffff;
 }
@@ -181,6 +174,26 @@ header .nav .nav__list .nav__list__item .nav__list__drop__down li a {
 .sticky .nav__list li a:hover,
 .sticky .nav__list li a:active {
     font-weight: 500;
+}
+
+/*------------------------------------------------------------------------*/
+/*-------------Product Photo------------*/
+/*------------------------------------------------------------------------*/
+.product__image {
+    background-color: #007bd1;
+}
+
+.product__image div {
+    display: flex;
+    justify-content: center;
+    height: 600px;
+}
+
+.product__image img {
+    width: 50%;
+    display: block;
+    margin: auto;
+    box-shadow: 0 0 20px #48b4ff;
 }
 
 /*------------------------------------------------------------------------*/
