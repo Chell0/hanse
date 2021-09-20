@@ -43,14 +43,6 @@ section {
     padding: 80px 0;
 }
 
-/*****************************************/
-/*HEADER*/
-/****************************************/
-header {
-    background-color: #2d98da;
-    height: 100vh;
-}
-
 /*LOGO*/
 .logo {
     height: 50px;
@@ -60,13 +52,14 @@ header {
 
 /*NAVIGATION*/
 /* ------Main Menu----------- */
-header .nav {
+.nav {
     position: fixed;
     width: 100vw;
-    box-shadow: 0 0 10px #5fb1e3;
+    background-color: #005f48;
+    box-shadow: 0 0 10px #00e8b0;
 }
 
-header .nav .nav__list {
+.nav .nav__list {
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -74,13 +67,13 @@ header .nav .nav__list {
     margin: 0 2rem;
 }
 
-header .nav .nav__list .nav__list__logo {
+.nav .nav__list .nav__list__logo {
     list-style: none;
     margin-right: auto;
     cursor: pointer;
 }
 
-header .nav .nav__list .nav__list__item {
+.nav .nav__list .nav__list__item {
     list-style: none;
     font-size: 80%;
     font-weight: 500;
@@ -89,27 +82,27 @@ header .nav .nav__list .nav__list__item {
     cursor: pointer;
 }
 
-header .nav .nav__list .nav__list__item a {
+.nav .nav__list .nav__list__item a {
     font-size: 80%;
 }
 
-header .nav .nav__list .nav__list__item:hover ul,
-header .nav .nav__list .nav__list__item:focus ul {
+.nav .nav__list .nav__list__item:hover ul,
+.nav .nav__list .nav__list__item:focus ul {
     opacity: 1;
     visibility: visible;
 }
 
-header .nav .nav__list .nav__list__item a {
+.nav .nav__list .nav__list__item a {
     color: #ffffff;
     text-decoration: none;
 }
 
-header .nav .nav__list .nav__list__item .nav__list__drop__down {
+.nav .nav__list .nav__list__item .nav__list__drop__down {
     position: absolute;
     top: 4rem;
     left: -0.5rem;
-    box-shadow: 0 0 10px #5fb1e3;
-    background-color: #2d98da;
+    box-shadow: 0 0 10px #00e8b0;
+    background-color: #005f48;
     border-radius: 0.2rem;
     width: 12rem;
     padding: 1rem;
@@ -121,7 +114,7 @@ header .nav .nav__list .nav__list__item .nav__list__drop__down {
     transition: opacity 200ms ease-in-out;
 }
 
-header .nav .nav__list .nav__list__item .nav__list__drop__down li {
+.nav .nav__list .nav__list__item .nav__list__drop__down li {
     font-size: 90%;
     list-style: none;
     padding: 0.2rem 0.7rem;
@@ -129,12 +122,12 @@ header .nav .nav__list .nav__list__item .nav__list__drop__down li {
     transition: background-color 100ms ease-in-out;
 }
 
-header .nav .nav__list .nav__list__item .nav__list__drop__down li:hover,
-header .nav .nav__list .nav__list__item .nav__list__drop__down li:focus {
-    background: #5fb1e3;
+.nav .nav__list .nav__list__item .nav__list__drop__down li:hover,
+.nav .nav__list .nav__list__item .nav__list__drop__down li:focus {
+    background: #00e8b0;
 }
 
-header .nav .nav__list .nav__list__item .nav__list__drop__down li a {
+.nav .nav__list .nav__list__item .nav__list__drop__down li a {
     text-decoration: none;
     color: #ffffff;
 }
@@ -158,8 +151,8 @@ header .nav .nav__list .nav__list__item .nav__list__drop__down li a {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #2d98da;
-    box-shadow: 0 2px 2px #5fb1e3;
+    background-color: #005f48;
+    box-shadow: 0 2px 2px #00e8b0;
     z-index: 9999;
 }
 
@@ -183,6 +176,26 @@ header .nav .nav__list .nav__list__item .nav__list__drop__down li a {
     font-weight: 500;
 }
 
+/*-------------------------------------------------------------------------*/
+/*--------------Product Photo------------*/
+/*-------------------------------------------------------------------------*/
+.product__image {
+    background-color: #005f48;
+}
+
+.product__image div {
+    display: flex;
+    justify-content: center;
+    height: 600px;
+}
+
+.product__image img {
+    width: 50%;
+    display: block;
+    margin: auto;
+    box-shadow: 0 0 20px #00e8b0;
+}
+
 /*------------------------------------------------------------------------*/
 /*---------PRODUCT DETAILS SECTION----------------------------------------*/
 /*------------------------------------------------------------------------*/
@@ -193,7 +206,7 @@ section.details__section {
 .product__details h2 {
     font-size: 90%;
     text-transform: uppercase;
-    background-color: #2d98da;
+    background-color: #005f48;
     color: #ffffff;
     font-weight: 500;
     padding: 10px;
@@ -201,13 +214,13 @@ section.details__section {
 
 .product__details {
     font-size: 70%;
-    border-bottom: 2px solid #2d98da;
+    border-bottom: 2px solid #005f48;
 }
 
 .product__notes {
     padding: 10px;
     background-color: #f3f3f3;
-    box-shadow: 0 0 20px #5fb1e3;
+    box-shadow: 0 0 20px #00e8b0;
 }
 
 .product__details ul {
@@ -220,14 +233,14 @@ section.details__section {
 
 .product__details ul li .features {
     font-weight: 500;
-    color: #2d98da;
+    color: #005f48;
 }
 
 .product__features span {
     font-size: 90%;
     text-transform: uppercase;
     font-weight: 500;
-    color: #2d98da;
+    color: #005f48;
 }
 
 /*------------------------------------------------------------------------*/
@@ -239,11 +252,11 @@ section.details__section {
     min-width: 1140px;
     border-radius: 5px 5px 0 0;
     overflow: hidden;
-    box-shadow: 0 0 20px #5fb1e3;
+    box-shadow: 0 0 20px #00e8b0;
 }
 
 .content-table thead tr {
-    background-color: #2d98da;
+    background-color: #005f48;
     color: #fff;
     text-align: left;
     font-size: 70%;
@@ -267,7 +280,7 @@ section.details__section {
 }
 
 .content-table tbody tr:last-of-type {
-    border-bottom: 2px solid #2d98da;
+    border-bottom: 2px solid #005f48;
 }
 
 /*------------------------------------------------------------------------*/
