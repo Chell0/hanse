@@ -43,16 +43,6 @@ section {
     padding: 80px 0;
 }
 
-.box {
-    padding: 1%;
-}
-
-.box img {
-    width: 100%;
-    height: auto;
-    margin-bottom: 15px;
-}
-
 /*LOGO*/
 .logo {
     height: 50px;
@@ -209,10 +199,35 @@ header .nav .nav__list {
 /* ---------------------------------------------- */
 /* -----------Product Section---------- */
 /* ---------------------------------------------- */
-.products__section .row .col h5 {
-    font-weight: normal;
-    font-size: 70%;
-    text-align: center;
+.products__showcase {
+    list-style: none;
+    width: 100%;
+    padding-left: 50px;
+    margin-bottom: 0;
+}
+
+.products__showcase {
+    padding-bottom: 50px;
+}
+
+.products__showcase li {
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.product__photo {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+.product__photo img {
+    height: auto;
+    border: 1px solid #666;
+    border-radius: 10px;
+    width: auto;
+    height: 300px;
 }
 
 /*------------------------------------------------------------------------*/
