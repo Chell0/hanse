@@ -43,6 +43,16 @@ section {
     padding: 80px 0;
 }
 
+.box {
+    padding: 1%;
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
 /*LOGO*/
 .logo {
     height: 50px;
