@@ -202,7 +202,7 @@ section {
 .products__showcase {
     list-style: none;
     width: 100%;
-    padding-left: 190px;
+    padding-left: 160px;
     margin-bottom: 0;
 }
 
@@ -212,10 +212,6 @@ section {
     width: 25%;
 }
 
-.products__showcase li:nth-child(3) {
-    width: 21%;
-}
-
 .product__photo {
     width: 100%;
     margin: 0;
@@ -223,10 +219,11 @@ section {
 }
 
 .product__photo img {
-    width: 40%;
     height: auto;
     border: 1px solid #666;
     border-radius: 10px;
+    width: auto;
+    height: 300px;
 }
 
 /*------------------------------------------------------------------------*/
