@@ -219,7 +219,6 @@ section {
 }
 
 .product__photo img {
-    /* width: 60%; */
     height: auto;
     border: 1px solid #666;
     border-radius: 10px;
