@@ -204,6 +204,39 @@ section {
     box-shadow: 0 0 20px #6dd5fa;
 }
 
+/* ---------------------------------------------- */
+/* -----------Product Section---------- */
+/* ---------------------------------------------- */
+.products__showcase {
+    list-style: none;
+    width: 100%;
+    padding-left: 130px;
+    margin-bottom: 0;
+}
+
+.products__showcase {
+    padding-bottom: 50px;
+}
+
+.products__showcase li {
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.product__photo {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+.product__photo img {
+    border: 1px solid #666;
+    border-radius: 10px;
+    width: auto;
+    height: 300px;
+}
+
 /*------------------------------------------------------------------------*/
 /*---------PRODUCT DETAILS SECTION----------------------------------------*/
 /*------------------------------------------------------------------------*/

@@ -228,17 +228,30 @@ h1 {
 /* ---------------------------------------------- */
 /* -----------Product Section---------- */
 /* ---------------------------------------------- */
-.products__section .row .span-1-of-3:first-of-type {
-    width: 26%;
+.products__showcase {
+    list-style: none;
+    width: 100%;
+    margin-bottom: 0;
+    padding: 20px;
 }
 
-.products__section .row .span-1-of-3:nth-child(3n) {
-    width: 19%;
+.products__showcase li {
+    display: block;
+    float: left;
+    width: 25%;
 }
 
-.products__section .row .col h5 {
-    font-weight: normal;
-    font-size: 70%;
+.product__photo {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+.product__photo img {
+    border: 1px solid #666;
+    border-radius: 10px;
+    width: 270px;
+    height: 250px;
 }
 
 /*------------------------------------------------------------------------*/
