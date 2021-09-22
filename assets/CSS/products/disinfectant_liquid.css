@@ -205,13 +205,15 @@ section {
 /* ---------------------------------------------------------------------- */
 /* ------------Product Section ------------- */
 /* ---------------------------------------------------------------------- */
-.products__section .row .col img {
-    width: 60%;
+.products__section .row .col {
+    padding-left: 60px;
 }
 
-.products__section .row .col h5 {
-    font-weight: normal;
-    font-size: 70%;
+.products__section .row .col img {
+    border: 1px solid #666;
+    border-radius: 10px;
+    width: auto;
+    height: 300px;
 }
 
 /*------------------------------------------------------------------------*/
