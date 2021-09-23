@@ -55,7 +55,7 @@ section {
 .nav {
     position: fixed;
     width: 100vw;
-    background-color: #007bd1;
+    background-color: #005985;
     box-shadow: 0 0 10px #48b4ff;
 }
 
@@ -102,7 +102,7 @@ section {
     top: 4rem;
     left: -0.5rem;
     box-shadow: 0 0 10px #48b4ff;
-    background-color: #007bd1;
+    background-color: #005985;
     border-radius: 0.2rem;
     width: 12rem;
     padding: 1rem;
@@ -151,7 +151,7 @@ section {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #007bd1;
+    background-color: #005985;
     box-shadow: 0 2px 2px #48b4ff;
     z-index: 9999;
 }
@@ -180,7 +180,7 @@ section {
 /*-------------Product Photo------------*/
 /*------------------------------------------------------------------------*/
 .product__image {
-    background-color: #007bd1;
+    background-color: #005985;
 }
 
 .product__image div {
@@ -236,7 +236,7 @@ section.details__section {
 .product__details h2 {
     font-size: 90%;
     text-transform: uppercase;
-    background-color: #007bd1;
+    background-color: #005985;
     color: #ffffff;
     font-weight: 500;
     padding: 10px;
@@ -244,13 +244,13 @@ section.details__section {
 
 .product__details {
     font-size: 70%;
-    border-bottom: 2px solid #007bd1;
+    border-bottom: 2px solid #005985;
 }
 
 .product__notes {
     padding: 10px;
     background-color: #f3f3f3;
-    box-shadow: 0 0 20px #48b4ff;
+    box-shadow: 0 0 10px #48b4ff;
 }
 
 .product__details ul {
@@ -263,14 +263,14 @@ section.details__section {
 
 .product__details ul li .features {
     font-weight: 500;
-    color: #007bd1;
+    color: #005985;
 }
 
 .product__features span {
     font-size: 90%;
     text-transform: uppercase;
     font-weight: 500;
-    color: #007bd1;
+    color: #005985;
 }
 
 /*------------------------------------------------------------------------*/
@@ -282,11 +282,11 @@ section.details__section {
     min-width: 1140px;
     border-radius: 5px 5px 0 0;
     overflow: hidden;
-    box-shadow: 0 0 20px #48b4ff;
+    box-shadow: 0 0 10px #48b4ff;
 }
 
 .content-table thead tr {
-    background-color: #007bd1;
+    background-color: #005985;
     color: #fff;
     text-align: left;
     font-size: 70%;
@@ -310,7 +310,7 @@ section.details__section {
 }
 
 .content-table tbody tr:last-of-type {
-    border-bottom: 2px solid #007bd1;
+    border-bottom: 2px solid #005985;
 }
 
 /*------------------------------------------------------------------------*/
