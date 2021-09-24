@@ -65,8 +65,7 @@ section {
 .nav {
     position: fixed;
     width: 100vw;
-    background-color: #34ace0;
-    box-shadow: 0 0 10px #60bee7;
+    background-color: #1099d3;
 }
 
 .nav .nav__list {
@@ -111,8 +110,7 @@ section {
     position: absolute;
     top: 4rem;
     left: -0.5rem;
-    box-shadow: 0 0 10px #60bee7;
-    background-color: #34ace0;
+    background-color: #1099d3;
     border-radius: 0.2rem;
     width: 12rem;
     padding: 1rem;
@@ -161,8 +159,8 @@ section {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #34ace0;
-    box-shadow: 0 2px 2px #60bee7;
+    background-color: #1099d3;
+
     z-index: 9999;
 }
 
@@ -189,10 +187,6 @@ section {
 /* ------------------------------------------------------------ */
 /* ------------Product Photo---------- */
 /* ------------------------------------------------------------ */
-.product__image {
-    background-color: #34ace0;
-}
-
 .product__image div {
     display: flex;
     justify-content: center;
@@ -203,17 +197,24 @@ section {
     width: 50%;
     display: block;
     margin: auto;
-    box-shadow: 0 0 20px #f2fcfe;
 }
 
 /* ---------------------------------------------- */
 /* -----------Product Section---------- */
 /* ---------------------------------------------- */
 .products__section .row .col img {
-    border: 1px solid #666;
+    padding: 40px;
     border-radius: 10px;
+    background-color: #f9f9f9;
     width: auto;
     height: 300px;
+}
+
+.products__section .row .col p {
+    font-weight: 500;
+    text-align: left;
+    font-size: 60%;
+    padding-top: 0;
 }
 
 /*------------------------------------------------------------------------*/
@@ -225,11 +226,10 @@ section {
     min-width: 1140px;
     border-radius: 5px 5px 0 0;
     overflow: hidden;
-    box-shadow: 0 0 20px #60bee7;
 }
 
 .content-table thead tr {
-    background-color: #34ace0;
+    background-color: #1099d3;
     color: #fff;
     text-align: left;
     font-size: 70%;
@@ -253,7 +253,7 @@ section {
 }
 
 .content-table tbody tr:last-of-type {
-    border-bottom: 2px solid #34ace0;
+    border-bottom: 2px solid #1099d3;
 }
 
 /*------------------------------------------------------------------------*/
