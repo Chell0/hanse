@@ -66,7 +66,7 @@ section {
     position: fixed;
     width: 100vw;
     background-color: #32cd32;
-    box-shadow: 0 0 10px #61d961;
+    /* box-shadow: 0 0 10px #61d961; */
 }
 
 .nav .nav__list {
@@ -111,7 +111,7 @@ section {
     position: absolute;
     top: 4rem;
     left: -0.5rem;
-    box-shadow: 0 0 10px #61d961;
+    /* box-shadow: 0 0 10px #61d961; */
     background-color: #32cd32;
     border-radius: 0.2rem;
     width: 12rem;
@@ -162,7 +162,7 @@ section {
     left: 0;
     width: 100%;
     background-color: #32cd32;
-    box-shadow: 0 2px 2px #61d961;
+    /* box-shadow: 0 2px 2px #61d961; */
     z-index: 9999;
 }
 
@@ -189,10 +189,6 @@ section {
 /*-------------------------------------------------------------------------*/
 /*---------Product Photo---------*/
 /*-------------------------------------------------------------------------*/
-.product__image {
-    background-color: #32cd32;
-}
-
 .product__image div {
     display: flex;
     justify-content: center;
@@ -203,17 +199,24 @@ section {
     width: 50%;
     display: block;
     margin: auto;
-    box-shadow: 0 0 20px #aaffa9;
 }
 
 /* ---------------------------------------------- */
 /* -----------Product Section---------- */
 /* ---------------------------------------------- */
 .products__section .row .col img {
-    border: 1px solid #666;
+    padding: 40px;
     border-radius: 10px;
+    background-color: #f9f9f9;
     width: auto;
     height: 300px;
+}
+
+.products__section .row .col p {
+    font-weight: 500;
+    text-align: left;
+    font-size: 60%;
+    padding-top: 0;
 }
 
 /*------------------------------------------------------------------------*/
@@ -240,7 +243,6 @@ section.details__section {
 .product__notes {
     padding: 10px;
     background-color: #f3f3f3;
-    box-shadow: 0 0 20px #61d961;
 }
 
 .product__details ul {
@@ -272,7 +274,6 @@ section.details__section {
     min-width: 1140px;
     border-radius: 5px 5px 0 0;
     overflow: hidden;
-    box-shadow: 0 0 20px #61d961;
 }
 
 .content-table thead tr {
