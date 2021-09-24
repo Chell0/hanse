@@ -65,8 +65,7 @@ section {
 .nav {
     position: fixed;
     width: 100vw;
-    background-color: #32cd32;
-    /* box-shadow: 0 0 10px #61d961; */
+    background-color: #00643a;
 }
 
 .nav .nav__list {
@@ -111,8 +110,7 @@ section {
     position: absolute;
     top: 4rem;
     left: -0.5rem;
-    /* box-shadow: 0 0 10px #61d961; */
-    background-color: #32cd32;
+    background-color: #006442;
     border-radius: 0.2rem;
     width: 12rem;
     padding: 1rem;
@@ -134,7 +132,7 @@ section {
 
 .nav .nav__list .nav__list__item .nav__list__drop__down li:hover,
 .nav .nav__list .nav__list__item .nav__list__drop__down li:focus {
-    background: #61d961;
+    background: #3cd2a0;
 }
 
 .nav .nav__list .nav__list__item .nav__list__drop__down li a {
@@ -161,8 +159,7 @@ section {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #32cd32;
-    /* box-shadow: 0 2px 2px #61d961; */
+    background-color: #006442;
     z-index: 9999;
 }
 
@@ -229,7 +226,7 @@ section.details__section {
 .product__details h2 {
     font-size: 90%;
     text-transform: uppercase;
-    background-color: #32cd32;
+    background-color: #006442;
     color: #ffffff;
     font-weight: 500;
     padding: 10px;
@@ -237,7 +234,7 @@ section.details__section {
 
 .product__details {
     font-size: 70%;
-    border-bottom: 2px solid #32cd32;
+    border-bottom: 2px solid #006442;
 }
 
 .product__notes {
@@ -255,14 +252,14 @@ section.details__section {
 
 .product__details ul li .features {
     font-weight: 500;
-    color: #32cd32;
+    color: #006442;
 }
 
 .product__features span {
     font-size: 90%;
     text-transform: uppercase;
     font-weight: 500;
-    color: #32cd32;
+    color: #006442;
 }
 
 /*------------------------------------------------------------------------*/
@@ -277,7 +274,7 @@ section.details__section {
 }
 
 .content-table thead tr {
-    background-color: #32cd32;
+    background-color: #006442;
     color: #fff;
     text-align: left;
     font-size: 70%;
@@ -301,7 +298,7 @@ section.details__section {
 }
 
 .content-table tbody tr:last-of-type {
-    border-bottom: 2px solid #32cd32;
+    border-bottom: 2px solid #006442;
 }
 
 /*------------------------------------------------------------------------*/
