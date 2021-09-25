@@ -56,7 +56,6 @@ section {
     position: fixed;
     width: 100vw;
     background-color: #005985;
-    box-shadow: 0 0 10px #48b4ff;
 }
 
 .nav .nav__list {
@@ -101,7 +100,6 @@ section {
     position: absolute;
     top: 4rem;
     left: -0.5rem;
-    box-shadow: 0 0 10px #48b4ff;
     background-color: #005985;
     border-radius: 0.2rem;
     width: 12rem;
@@ -152,7 +150,6 @@ section {
     left: 0;
     width: 100%;
     background-color: #005985;
-    box-shadow: 0 2px 2px #48b4ff;
     z-index: 9999;
 }
 
@@ -179,10 +176,6 @@ section {
 /*------------------------------------------------------------------------*/
 /*-------------Product Photo------------*/
 /*------------------------------------------------------------------------*/
-.product__image {
-    background-color: #005985;
-}
-
 .product__image div {
     display: flex;
     justify-content: center;
@@ -193,7 +186,6 @@ section {
     width: 50%;
     display: block;
     margin: auto;
-    box-shadow: 0 0 20px #48b4ff;
 }
 
 /*------------------------------------------------------------------------*/
@@ -202,7 +194,7 @@ section {
 .products__showcase {
     list-style: none;
     width: 100%;
-    padding-left: 160px;
+    padding-left: 100px;
     margin-bottom: 0;
 }
 
@@ -219,11 +211,16 @@ section {
 }
 
 .product__photo img {
-    height: auto;
-    border: 1px solid #666;
+    background-color: #f9f9f9;
     border-radius: 10px;
     width: auto;
     height: 300px;
+    padding: 40px;
+}
+
+.product__photo p {
+    font-size: 70%;
+    font-weight: 500;
 }
 
 /*------------------------------------------------------------------------*/
@@ -240,6 +237,7 @@ section.details__section {
     color: #ffffff;
     font-weight: 500;
     padding: 10px;
+    border-radius: 5px 5px 0 0;
 }
 
 .product__details {
@@ -250,7 +248,6 @@ section.details__section {
 .product__notes {
     padding: 10px;
     background-color: #f3f3f3;
-    box-shadow: 0 0 10px #48b4ff;
 }
 
 .product__details ul {
@@ -267,7 +264,7 @@ section.details__section {
 }
 
 .product__features span {
-    font-size: 90%;
+    font-size: 80%;
     text-transform: uppercase;
     font-weight: 500;
     color: #005985;
@@ -282,7 +279,6 @@ section.details__section {
     min-width: 1140px;
     border-radius: 5px 5px 0 0;
     overflow: hidden;
-    box-shadow: 0 0 10px #48b4ff;
 }
 
 .content-table thead tr {
