@@ -55,8 +55,7 @@ section {
 .nav {
     position: fixed;
     width: 100vw;
-    background-color: #005f48;
-    box-shadow: 0 0 10px #00e8b0;
+    background-color: #00643b;
 }
 
 .nav .nav__list {
@@ -101,8 +100,7 @@ section {
     position: absolute;
     top: 4rem;
     left: -0.5rem;
-    box-shadow: 0 0 10px #00e8b0;
-    background-color: #005f48;
+    background-color: #00643b;
     border-radius: 0.2rem;
     width: 12rem;
     padding: 1rem;
@@ -124,7 +122,7 @@ section {
 
 .nav .nav__list .nav__list__item .nav__list__drop__down li:hover,
 .nav .nav__list .nav__list__item .nav__list__drop__down li:focus {
-    background: #00e8b0;
+    background: #3ac6a5;
 }
 
 .nav .nav__list .nav__list__item .nav__list__drop__down li a {
@@ -151,8 +149,8 @@ section {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #005f48;
-    box-shadow: 0 2px 2px #00e8b0;
+    background-color: #00643b;
+
     z-index: 9999;
 }
 
@@ -179,10 +177,6 @@ section {
 /*-------------------------------------------------------------------------*/
 /*--------------Product Photo------------*/
 /*-------------------------------------------------------------------------*/
-.product__image {
-    background-color: #005f48;
-}
-
 .product__image div {
     display: flex;
     justify-content: center;
@@ -193,7 +187,6 @@ section {
     width: 50%;
     display: block;
     margin: auto;
-    box-shadow: 0 0 20px #00e8b0;
 }
 
 /*------------------------------------------------------------------------*/
@@ -202,7 +195,7 @@ section {
 .products__showcase {
     list-style: none;
     width: 100%;
-    padding-left: 130px;
+    padding-left: 80px;
     margin-bottom: 0;
 }
 
@@ -223,10 +216,16 @@ section {
 }
 
 .product__photo img {
-    border: 1px solid #666;
+    background-color: #f9f9f9;
     border-radius: 10px;
     width: auto;
     height: 300px;
+    padding: 50px;
+}
+
+.product__photo p {
+    font-size: 60%;
+    font-weight: 500;
 }
 
 /*------------------------------------------------------------------------*/
@@ -239,7 +238,7 @@ section.details__section {
 .product__details h2 {
     font-size: 90%;
     text-transform: uppercase;
-    background-color: #005f48;
+    background-color: #00643b;
     color: #ffffff;
     font-weight: 500;
     padding: 10px;
@@ -247,13 +246,12 @@ section.details__section {
 
 .product__details {
     font-size: 70%;
-    border-bottom: 2px solid #005f48;
+    border-bottom: 2px solid #00643b;
 }
 
 .product__notes {
     padding: 10px;
     background-color: #f3f3f3;
-    box-shadow: 0 0 20px #00e8b0;
 }
 
 .product__details ul {
@@ -266,14 +264,14 @@ section.details__section {
 
 .product__details ul li .features {
     font-weight: 500;
-    color: #005f48;
+    color: #00643b;
 }
 
 .product__features span {
-    font-size: 90%;
+    font-size: 80%;
     text-transform: uppercase;
     font-weight: 500;
-    color: #005f48;
+    color: #00643b;
 }
 
 /*------------------------------------------------------------------------*/
@@ -285,11 +283,10 @@ section.details__section {
     min-width: 1140px;
     border-radius: 5px 5px 0 0;
     overflow: hidden;
-    box-shadow: 0 0 20px #00e8b0;
 }
 
 .content-table thead tr {
-    background-color: #005f48;
+    background-color: #00643b;
     color: #fff;
     text-align: left;
     font-size: 70%;
@@ -313,7 +310,7 @@ section.details__section {
 }
 
 .content-table tbody tr:last-of-type {
-    border-bottom: 2px solid #005f48;
+    border-bottom: 2px solid #00643b;
 }
 
 /*------------------------------------------------------------------------*/
