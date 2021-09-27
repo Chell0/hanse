@@ -191,7 +191,6 @@ h2:after {
     position: relative;
     padding: 1.5rem 1rem;
     cursor: pointer;
-    /* color: #ffffff; */
     font-size: 80%;
 }
 
@@ -215,7 +214,6 @@ header .nav .nav__list .nav__list__item a {
     top: 4rem;
     left: -0.5rem;
     background-color: #ea8685;
-    box-shadow: 0 0 10px #ff6b6b;
     border-radius: 0.2rem;
     width: 12rem;
     padding: 1rem;
