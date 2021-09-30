@@ -213,7 +213,7 @@ header .nav .nav__list .nav__list__item a {
     position: absolute;
     top: 4rem;
     left: -0.5rem;
-    background-color: #ea8685;
+    background-color: #a86260;
     border-radius: 0.2rem;
     width: 12rem;
     padding: 1rem;
@@ -262,7 +262,7 @@ header .nav .nav__list .nav__list__item a {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #ea8685;
+    background-color: #a86260;
     box-shadow: 0 2px 2px #efefef;
     z-index: 9999;
 }
