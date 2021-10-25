@@ -51,7 +51,7 @@ section {
 /*HEADER*/
 /****************************************/
 header {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
 		url("../../resources/IMG/hanse-background.png");
 	background-size: cover;
 	background-position: center;
@@ -62,7 +62,7 @@ header {
 .hero-text-box {
 	position: absolute;
 	width: 1140px;
-	top: 50%;
+	top: 60%;
 	left: 50%;
 	-webkit-transform: translate(-50%, -50%); /* Android, Chrome, iOS, Safari */
 	-moz-transform: translate(-50%, -50%); /* Firefox */
@@ -255,9 +255,10 @@ h2:after {
 	display: none;
 }
 
-.mobile-nav-icon > i {
+.mobile-nav-icon i.icon {
 	font-size: 200%;
 	color: #fff;
+	border-right: 40px;
 }
 
 /* ------STICKY NAVIGATION------- */
@@ -272,7 +273,7 @@ h2:after {
 }
 
 .sticky .nav__list {
-	margin-top: -5px;
+	margin-top: 18px;
 }
 
 .sticky .nav__list .nav__list__logo .sticky-logo {
@@ -308,16 +309,14 @@ h2:after {
 .catalogues__section .row .col a img {
 	width: 100%;
 	padding: 15px;
-	opacity: 0.7;
-	-webkit-transform: scale(1.15); /* Android, Chrome, iOS, Safari */
-	-ms-transform: scale(1.15); /* Microsoft, IE */
-	transform: scale(1.15);
-	-webkit-transition: transform 0.3s, opacity 0.5s; /* Android, Chrome, iOS, Safari */
-	transition: transform 0.3s, opacity 0.5s;
+	-webkit-transform: scale(1.2); /* Android, Chrome, iOS, Safari */
+	-ms-transform: scale(1.2); /* Microsoft, IE */
+	transform: scale(1.2);
+	-webkit-transition: transform 0.3s; /* Android, Chrome, iOS, Safari */
+	transition: transform 0.3s;
 }
 
 .catalogues__section .row .col a img:hover {
-	opacity: 1;
 	-webkit-transform: scale(1.04); /* Android, Chrome, iOS, Safari */
 	-ms-transform: scale(1.04); /* Microsoft, IE */
 	transform: scale(1.04);
