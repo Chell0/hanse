@@ -1,0 +1,137 @@
+/*Root*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	background-color: #ffffff;
+	color: #555555;
+	font-family: "Quicksand", sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+	text-rendering: optimizeLegibility;
+	overflow-x: hidden;
+}
+
+/*****************************************/
+/*HEADER*/
+/****************************************/
+header {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+		url("../../../resources/IMG/hanse-background.png");
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	background-attachment: fixed;
+}
+
+.hero-text-box {
+	position: absolute;
+	width: 1140px;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%); /* Android, Chrome, iOS, Safari */
+	-moz-transform: translate(-50%, -50%); /* Firefox */
+	transform: translate(-50%, -50%);
+}
+
+/*HEADINGS*/
+h1 {
+	font-size: 700%;
+	font-weight: 500;
+	color: #ffffff;
+	word-spacing: 4px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
+/*LOGO*/
+.logo {
+	height: 95px;
+}
+
+/*NAVIGATION
+/* ------Main Menu----------- */
+.nav {
+	position: fixed;
+	width: 100vw;
+}
+
+.nav__list {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	gap: 2rem;
+	margin: 0 2rem;
+}
+
+.nav .nav__list .nav__list__logo {
+	list-style: none;
+	margin-right: auto;
+	cursor: pointer;
+}
+
+.nav .nav__list .nav__list__item {
+	list-style: none;
+	font-weight: 500;
+	position: relative;
+	padding: 1.5rem 1rem;
+	cursor: pointer;
+	font-size: 95%;
+}
+
+.nav .nav__list .nav__list__item a {
+	font-size: 110%;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+/* ------MOBILE NAVIGATION------- */
+.mobile-nav-icon {
+	float: right;
+	margin-top: 30px;
+	cursor: pointer;
+	display: none;
+}
+
+.mobile-nav-icon > i {
+	font-size: 200%;
+	color: #fff;
+}
+
+/* ------STICKY NAVIGATION------- */
+.sticky {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: #a86260;
+	box-shadow: 0 2px 2px #efefef;
+	z-index: 9999;
+}
+
+.sticky .nav__list {
+	margin-top: -5px;
+}
+
+.sticky .nav__list .nav__list__logo .sticky-logo {
+	display: block;
+	height: 50px;
+	margin: 5px 0;
+}
+
+.sticky .nav__list li a:link,
+.sticky .nav__list li a:visited {
+	padding: 12px 0;
+}
+
+.sticky .nav__list li a:hover,
+.sticky .nav__list li a:active {
+	font-weight: 500;
+}
