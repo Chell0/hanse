@@ -233,13 +233,13 @@
 					</div>
 					<div class="row">
 						<div class="col span-1-of-3">
-							<label for="name">Company Name :</label>
+							<label for="company">Company Name :</label>
 						</div>
 						<div class="col span-2-of-3">
 							<input
 								type="text"
-								name="name"
-								id="name"
+								name="company"
+								id="company"
 								placeholder="Company Name"
 								required
 							/>
@@ -267,16 +267,21 @@
 								name="_captcha"
 								value="false"
 							/>
+							<input
+								type="hidden"
+								name="_template"
+								value="table"
+							/>
 						</div>
 					</div>
 					<div class="row">
 						<div class="col span-1-of-3">
-							<label>Choose Product :</label>
+							<label for="Category">Choose Product :</label>
 						</div>
 						<div class="col span-2-of-3">
-							<select name="catalogue" id="catalogue-select">
-								<option value="">
-									--Please select a product/s--
+							<select name="category" id="category-select">
+								<option value="Please select a product/s">
+									Please select a product/s
 								</option>
 								<option value="all">All</option>
 								<option value="air freshener">
