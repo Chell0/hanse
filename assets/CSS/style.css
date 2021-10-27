@@ -273,7 +273,7 @@ h2:after {
 }
 
 .sticky .nav__list {
-	margin-top: 18px;
+	margin-top: -13px;
 }
 
 .sticky .nav__list .nav__list__logo .sticky-logo {
@@ -322,6 +322,10 @@ h2:after {
 	transform: scale(1.04);
 }
 
+#products {
+	padding-top: 0;
+}
+
 /* ------------------------------- */
 /* --------CONTACT SECTION-------- */
 /* ------------------------------- */
@@ -366,6 +370,25 @@ h2:after {
 /*------------------------------------------------------------------------*/
 /*----------ABOUT SECTION-------------------------------------------------*/
 /*------------------------------------------------------------------------*/
+.about {
+	background-color: #a86260;
+}
+
+.about__img {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+		url("../../resources/IMG/hanse-background.png");
+	background-size: cover;
+	background-position: center;
+	height: 75vh;
+}
+
+.about__section {
+	font-size: 440%;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 150px;
+	color: #fff;
+}
 
 /* --------------------------------- */
 /* --------IDENTITY SECTIONS-------- */
