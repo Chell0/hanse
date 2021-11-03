@@ -311,9 +311,8 @@ label {
 	margin-right: 25px;
 }
 
-.contact-feature > p > span {
-	font-size: 100%;
-	font-weight: 600;
+.contact-feature > p > strong {
+	font-size: 110%;
 }
 
 .contact-feature > p {

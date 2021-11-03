@@ -16,18 +16,6 @@ body {
 	overflow-x: hidden;
 }
 
-.clearfix {
-	zoom: 1;
-}
-
-.clearfix:after {
-	content: ".";
-	clear: both;
-	display: block;
-	height: 0;
-	visibility: hidden;
-}
-
 /******************************************/
 /*REUSABLE COMPONENTS*/
 /******************************************/
@@ -85,7 +73,7 @@ section {
 
 .nav .nav__list .nav__list__item {
 	list-style: none;
-	font-size: 95%;
+	font-size: 90%;
 	font-weight: 500;
 	position: relative;
 	padding: 1.5rem 1rem;
@@ -161,7 +149,6 @@ section {
 	left: 0;
 	width: 100%;
 	background-color: #8b0000;
-	box-shadow: 0 2px 2px #ff3d3d;
 	z-index: 9999;
 }
 
@@ -185,66 +172,57 @@ section {
 	font-weight: 500;
 }
 
-/* -------------------------------------------------------------------- */
-/* -------Product Photo-------*/
-/* --------------------------------------------------------------------- */
-.product__image div {
-	display: flex;
-	justify-content: center;
-	height: 600px;
-}
-
-.product__image img {
-	width: 50%;
-	display: block;
-	margin: auto;
-}
-
 /* ----------------------------------------------------------------------- */
 /* -----------Product Section----------- */
 /* ----------------------------------------------------------------------- */
+.products__section {
+	margin-top: 40px;
+}
 .products__section .row .col img {
-	background-color: #f9f9f9;
 	border-radius: 10px;
-	padding: 30px;
+	padding: 25px;
 	width: auto;
 	height: 300px;
+	box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+		rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
 
 .products__section .row .col p {
 	font-weight: 500;
-	text-align: left;
 	font-size: 70%;
 	padding-top: 0;
+	padding-left: 20px;
 }
 
 /*------------------------------------------------------------------------*/
 /*---------PRODUCT DETAILS SECTION----------------------------------------*/
 /*------------------------------------------------------------------------*/
 section.details__section {
-	padding-bottom: 0;
+	padding-top: 0;
 }
 
 .product__details h2 {
-	font-size: 110%;
+	font-size: 100%;
 	text-transform: uppercase;
 	background-color: #8b0000;
 	color: #ffffff;
-	font-weight: bold;
+	font-weight: 500;
 	letter-spacing: 0.5px;
 	padding: 10px;
 }
 
 .product__details {
+	max-width: 1140px;
 	font-size: 80%;
 	word-spacing: 1px;
 	line-height: 1.2;
-	border-bottom: 2px solid #8b0000;
+	border: 1px solid #f3f3f3;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .product__notes {
 	padding: 10px;
-	background-color: #f9f9f9;
+	background-color: #fffdfd;
 }
 
 .product__details ul {
@@ -263,7 +241,7 @@ section.details__section {
 .product__features span {
 	font-size: 90%;
 	text-transform: uppercase;
-	font-weight: bold;
+	font-weight: 500;
 	color: #8b0000;
 }
 
@@ -276,23 +254,17 @@ section.details__section {
 	min-width: 1140px;
 	border-radius: 5px 5px 0 0;
 	overflow: hidden;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-.content-table thead tr {
+.content-table thead tr th {
 	background-color: #8b0000;
-	color: #fff;
+	color: #ffffff;
 	text-align: left;
 	font-size: 85%;
-	font-weight: 500;
+	font-weight: 400;
 	letter-spacing: 0.5px;
 	text-transform: uppercase;
-}
-
-.content-table tbody th {
-	text-align: left;
-	text-transform: uppercase;
-	font-weight: 500;
-	color: #8b0000;
 }
 
 .content-table th,
@@ -300,18 +272,13 @@ section.details__section {
 	padding: 12px 15px;
 }
 
-.content-table tbody tr {
+.content-table tbody tr td {
 	font-size: 70%;
-	font-weight: 500;
 	border-bottom: 1px solid #dddddd;
 }
 
 .content-table tbody tr:nth-of-type(even) {
 	background-color: #f3f3f3;
-}
-
-.content-table tbody tr:last-of-type {
-	border-bottom: 2px solid #8b0000;
 }
 
 /* ------------------------------- */
@@ -346,9 +313,8 @@ section.details__section {
 	margin-right: 25px;
 }
 
-.contact-feature > p > span {
-	font-size: 100%;
-	font-weight: 600;
+.contact-feature > p > strong {
+	font-size: 110%;
 }
 
 .contact-feature > p {
