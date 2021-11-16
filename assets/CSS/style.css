@@ -10,8 +10,8 @@ body {
 	background-color: #ffffff;
 	color: #555555;
 	font-family: "Quicksand", sans-serif;
-	font-weight: 300;
 	font-size: 20px;
+	font-weight: 300;
 	text-rendering: optimizeLegibility;
 	overflow-x: hidden;
 }
@@ -51,7 +51,7 @@ section {
 /*HEADER*/
 /****************************************/
 header {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
 		url("../../resources/IMG/hanse-background.png");
 	background-size: cover;
 	background-position: center;
@@ -62,16 +62,22 @@ header {
 .hero-text-box {
 	position: absolute;
 	width: 1140px;
-	top: 60%;
+	top: 70%;
 	left: 50%;
 	-webkit-transform: translate(-50%, -50%); /* Android, Chrome, iOS, Safari */
 	-moz-transform: translate(-50%, -50%); /* Firefox */
 	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.hero-text-box h1 {
+	font-size: 5rem;
+	font-size: 700;
 }
 
 .hero-text-box > h1 > span {
-	font-size: 0.5em;
-	font-weight: 500;
+	font-size: 2.5rem;
+	font-weight: 400;
 }
 
 /*HEADINGS*/
@@ -135,7 +141,8 @@ h2:after {
 .btn:link,
 .btn:visited {
 	display: inline-block;
-	padding: 10px 30px;
+	padding: 15px 25px;
+	font-size: 90%;
 	font-weight: 500;
 	text-decoration: none;
 	-webkit-border-raidus: 200px; /* Android, Chrome, iOS, Safari */
@@ -154,7 +161,8 @@ h2:after {
 
 .btn-ghost:hover,
 .btn-ghost:active {
-	background-color: #e84393;
+	background-color: rgba(60, 64, 67, 0.605);
+	/* background-color: #e84393; */
 	color: #ffffff;
 	font-weight: 500;
 }
@@ -164,6 +172,7 @@ h2:after {
 	height: 85px;
 	width: auto;
 	float: left;
+	margin-top: 10px;
 }
 
 /*NAVIGATION
@@ -171,6 +180,7 @@ h2:after {
 .nav {
 	position: fixed;
 	width: 100vw;
+	z-index: 1;
 }
 
 .nav__list {
@@ -198,8 +208,6 @@ h2:after {
 
 .nav .nav__list .nav__list__item a {
 	font-size: 80%;
-	text-decoration: none;
-	color: #ffffff;
 }
 
 .nav ul.nav__list li.nav__list__item:hover ul,
@@ -255,10 +263,9 @@ h2:after {
 	display: none;
 }
 
-.mobile-nav-icon i.icon {
+.mobile-nav-icon > i {
 	font-size: 200%;
 	color: #fff;
-	border-right: 40px;
 }
 
 /* ------STICKY NAVIGATION------- */
@@ -273,7 +280,7 @@ h2:after {
 }
 
 .sticky .nav__list {
-	margin-top: -13px;
+	margin-top: -5px;
 }
 
 .sticky .nav__list .nav__list__logo .sticky-logo {
@@ -313,7 +320,7 @@ h2:after {
 	-ms-transform: scale(1); /* Microsoft, IE */
 	transform: scale(1);
 	-webkit-transition: transform 0.3s; /* Android, Chrome, iOS, Safari */
-	transition: transform 0.7s; */
+	transition: transform 0.7s;
 }
 
 .catalogues__section .row .col a img:hover {
@@ -324,82 +331,6 @@ h2:after {
 
 #products {
 	padding-top: 0;
-}
-
-/*------------------------------------------------------------------------*/
-/*----------ABOUT SECTION-------------------------------------------------*/
-/*------------------------------------------------------------------------*/
-.about {
-	background-color: #a86260;
-}
-
-.about__img {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-		url("../../resources/IMG/hanse-background.png");
-	background-size: cover;
-	background-position: center;
-	height: 75vh;
-}
-
-.about__section {
-	font-size: 440%;
-	font-weight: bold;
-	text-align: center;
-	margin-top: 150px;
-	color: #fff;
-}
-
-/* --------------------------------- */
-/* --------IDENTITY SECTIONS-------- */
-/* --------------------------------- */
-.identity-section {
-	background-color: #f4f4f4;
-}
-
-.identity-section .row .col {
-	text-align: center;
-}
-
-.identity-section div.row .vision {
-	padding: 30px;
-	text-align: center;
-}
-
-.identity-section div.row .mission {
-	padding: 20px;
-	text-align: center;
-}
-
-/* --------------------------------- */
-/* --------DIRECTORS SECTION-------- */
-/* --------------------------------- */
-.box img {
-	width: 100%;
-	height: auto;
-	margin-bottom: 15px;
-}
-
-.ion-ios-person {
-	color: #82589f;
-}
-
-.ion-ios-star {
-	color: #82589f;
-}
-
-.section-directors .row .col .directors {
-	width: 70%;
-}
-
-.director-feature span {
-	font-size: 90%;
-	font-weight: 500;
-	color: #82589f;
-}
-
-.director-feature span a {
-	text-decoration: none;
-	color: #82589f;
 }
 
 /* ------------------------------- */

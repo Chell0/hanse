@@ -219,6 +219,7 @@ section.details__section {
 }
 
 .product__details {
+	max-width: 1140px;
 	font-size: 80%;
 	word-spacing: 1px;
 	line-height: 1.2;
